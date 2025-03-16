@@ -19,8 +19,8 @@ book:
 
 #website:
 
-  site-url: https://s2t2.github.io/version-control-workshop-2024
-  repo-url: https://github.com/s2t2/version-control-workshop-2024
+  site-url: https://prof-rossetti.github.io/version-control-tutorial
+  repo-url: https://github.com/prof-rossetti/version-control-tutorial
   repo-branch: main
   repo-subdir: docs
   repo-actions: [edit, issue, source]

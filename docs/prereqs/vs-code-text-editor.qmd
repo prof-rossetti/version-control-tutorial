@@ -2,15 +2,13 @@
 
 # Text Editor
 
-The goal is to have access to a text-editing application of choice, which we'll use to create and edit files of code. To be programming language agnostic, in this workshop we will focus on text files written in the Markdown Language and ending in the ".md" extension.
-
-We'll be using software called a **text editor**. Similar to word processing software like Microsoft Word, text editors allow us to write and save documents of text. But unlike word processors, which save extra metadata (e.g. styles and formatting) along with the underling text, text editors allow us to save files comprised of just text.
+We'll be using software called a **text editor** to create and edit files of code. Similar to word processing software like Microsoft Word, text editors allow us to write and save documents of text. But unlike word processors, which save extra metadata (e.g. styles and formatting) along with the underling text, text editors save files comprised of just text.
 
 There are many text editor options out there, and it seems each developer has their own preference. Regardless of which text editor you choose, you are highly encouraged to configure it with certain plugins, packages and extensions to enhance your experience and save you time.
 
 ## VS Code
 
-Our preferred text editor is called Visual Studio Code, or "VS Code" for short.
+Our preferred text editor is called Visual Studio Code, or \"VS Code\" for short.
 
 ### Installation and Configuration
 
