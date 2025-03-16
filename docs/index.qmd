@@ -4,7 +4,7 @@
 :::
 
 
-Demystify the version control process and learn how to manage and collaborate on coding projects with other researchers and developers. Attendees will become familiar with Git and GitHub.
+Demystify the version control process and learn how to collaborate on coding projects with other researchers and developers.
 
 ## Learning Objectives
 
@@ -15,34 +15,6 @@ Demystify the version control process and learn how to manage and collaborate on
 5. Collaborate with peers by pulling and merging changes from a shared repository.
 6. Troubleshoot common Git errors and conflicts during version control.
 
-## Prerequisites
-
-This workshop requires the following software:
-
-+ GitHub Desktop (requires a GitHub account)
-+ VS Code Text Editor
-
-If you have never worked with these tools before, we will walk you through how to install them. Just follow the [Version Control Tools Setup Guide](./prereqs/index.qmd).
-
-## Agenda
-
-+ 0:00 - Welcome and Announcements:
-  + Make sure you have already installed the prerequisite software before the workshop.
-  + For all workshop exercises, beginners are encouraged to use GitHub Desktop, but any participant desiring further exploration can use the Git CLI instead.
-
-+ 0:05 - [Version Control Terminology and Concepts](./notes/version-control.qmd)
-+ 0:10 - ["Hello Version Control" Exercise](./exercises/hello-version-control/index.qmd):
-  + Gain familiarity with basic version control operations, including creating repositories, pushing and pulling code, and making commits.
-+ 0:30 - ["Pull Request Workflow" Exercise](./exercises/pull-request-workflow/index.qmd):
-  + Adopt a Pull Request Workflow to collaborate with yourself (on independent projects).
-+ 0:50 - ["Developer Team Collaboration" Exercise](./exercises/developer-team-collaboration/index.qmd):
-  + Adopt a Pull Request Workflow to collaborate with teammates, on team projects where you have write access to the repository.
-+ 0:70 - ["Open Source Collaboration" Exercise](./exercises/open-source-collaboration/index.qmd):
-  + Adopt a Pull Request Workflow to collaborate with people you don't know, on open source projects where you don't have write access to the repository.
-+ 0:90 - Stop
-
-
-The agenda above is for a 90 minute workshop, however for a 60 minute workshop, choose either the team exercise or open source exercise, and do the other for homework / self-practice.
 
 ## Additional Resources
 
@@ -50,12 +22,5 @@ Official GitHub Docs:
 
   + <https://docs.github.com/en>
   + <https://docs.github.com/en/get-started/using-github/github-flow>
-  + <https://githubtraining.github.io/training-manual/#>
+  + <https://githubtraining.github.io/training-manual>
   + <https://training.github.com/downloads/github-git-cheat-sheet.pdf>
-
-Here are some additional resources for further exploration:
-
-  + <https://github.com/k88hudson/git-flight-rules>
-  + <https://git-teaching-kit.netlify.app>
-  + <https://swcarpentry.github.io/git-novice>
-  + <https://thecodingtrain.com/tracks/git-and-github-for-poets>

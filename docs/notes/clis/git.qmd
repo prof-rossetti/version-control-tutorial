@@ -1,4 +1,6 @@
-# The `git` Utility
+# The `git` CLI
+
+
 
 > Git is a free and open source distributed version control system. - [Git Website](https://git-scm.com/)
 
@@ -7,15 +9,18 @@
 ## References
 
 Official References:
+
   + [Git Source Code](https://github.com/git/git)
   + [Git Docs](https://git-scm.com/doc)
 
 Beginner References:
+
   + [Git Handbook](https://guides.github.com/introduction/git-handbook/)
   + [Github Guides - YouTube Videos](https://www.youtube.com/githubguides)
   + [An Intro to Git and GitHub - Youtube Video](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
 
 Command-Line References:
+
   + [Git CLI Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
   + [Getting Started w/ the Git CLI](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
   + [Git Tutorials - Atlassian](https://www.atlassian.com/git/tutorials)
@@ -215,6 +220,7 @@ After pushing successfully, you should be able to visit your remote repository o
 ### Collaboration
 
 References:
+
   + [Intro to Pull Request Work Flow](https://guides.github.com/introduction/flow/)
 
 #### Branch Operations

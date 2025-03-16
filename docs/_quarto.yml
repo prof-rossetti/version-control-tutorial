@@ -63,32 +63,32 @@ book:
   chapters:
     - index.qmd
 
-    - "-------------"
+    #- "-------------"
 
-    - part: "Setup Guide (Prereqs)"
-      href: prereqs/index.qmd
+    - part: "Dev Tools Setup"
       chapters:
         - prereqs/github.qmd
         - prereqs/vs-code-text-editor.qmd
-        - prereqs/git-client.qmd
+        - href: prereqs/git-client.qmd
+          text: "GitHub Desktop"
 
 
 
-    - "-------------"
+    #- "-------------"
 
     - part: "Notes"
       chapters:
         - notes/version-control.qmd
 
-    - "-------------"
-    - part: "Workshop Exercises"
+    #- "-------------"
+    - part: "Exercises"
       chapters:
         - href: exercises/hello-version-control/index.qmd
           text: Hello Version Control
         - href: exercises/pull-request-workflow/index.qmd
           text: Pull Request Workflow
         - href: exercises/developer-team-collaboration/index.qmd
-          text: Developer Team Collaboration
+          text: Dev Team Collaboration
         - href: exercises/open-source-collaboration/index.qmd
           text: Open Source Collaboration
 
@@ -99,7 +99,7 @@ book:
 
   appendices:
     - href: notes/clis/brew.qmd
-      text: "Homebrew Package Manager (Mac OS)"
+      text: "Homebrew (Mac OS)"
     - notes/clis/git.qmd
 
   # shows up at bottom of page

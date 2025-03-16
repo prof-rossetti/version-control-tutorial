@@ -4,6 +4,11 @@
 
 Adopt a Pull Request Workflow to collaborate with yourself (on independent projects).
 
+## Walkthrough Video
+
+{{< video https://www.youtube.com/watch?v=NTzUbULGc3o
+    title= "Pull Request Workflow Exercise Walkthrough" >}}
+
 ## Instructions
 
 This is a process we will follow to add or revise the contents of our own existing repos. If you have just completed the ["Hello Version Control" exercise](../hello-version-control/index.qmd), you can start at step 3:
@@ -25,15 +30,11 @@ PR Workflow Process:
 
 To repeat the PR Workflow Process (after PR has been merged), repeat steps 3-9 above.
 
-## Walkthrough Video
 
-{{< video https://www.youtube.com/watch?v=NTzUbULGc3o
-    title= "Pull Request Workflow Exercise Walkthrough"
->}}
 
 <hr>
 
-## Optional Further Exploration (Git CLI)
+## Alternative (Git CLI)
 
 Beginners are recommended to use GitHub Desktop to complete the exercise above, however if anyone is interested in completing the exercise using Git from the command line, see the commands below.
 

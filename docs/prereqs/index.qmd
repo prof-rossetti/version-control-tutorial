@@ -1,7 +1,0 @@
-# Version Control Tools Setup Guide
-
-This document helps you install and configure version control tools on your local machine.
-
-  1. [GitHub](./github.qmd)
-  2. [Text Editor](./vs-code-text-editor.qmd)
-  3. [Version Control Tool](./git-client.qmd)

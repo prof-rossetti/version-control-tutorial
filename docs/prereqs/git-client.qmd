@@ -1,41 +1,20 @@
 
-# Version Control Utilities
+# Git Clients
 
-The goal of a "version control" tool is to help us track changes in our code, and easily interface with code hosting and collaboration platforms like GitHub.
+Git is the underlying version control system used by platforms like GitHub.
 
-Git is a leading system for performing version control. Professionals may prefer to use Git from the command line, but there is a learning curve. So beginners are encouraged to get started with GitHub Desktop first, which provides an easier to use graphical user interface (GUI).
-
-In this workshop we will use GitHub Desktop to download repositories from GitHub. We will revisit command-line Git in a future workshop.
+The goal of a Git client is to help us track changes in our code, and interface with code hosting platforms like GitHub. Professionals may prefer to use Git from the command line, but there is a learning curve. Instead, beginners are encouraged to get started with GitHub Desktop, which provides an easier to use graphical user interface (GUI).
 
 ## GitHub Desktop
 
 ### Installation and Configuration
 
-Beginners are encouraged to install [GitHub Desktop software](https://desktop.github.com/), for Mac or Windows.
-
-> NOTE: GitHub Desktop may require the Git command line utility to also be installed on your computer (see below).
+Students are encouraged to install [GitHub Desktop software](https://desktop.github.com/), for Mac or Windows.
 
 After installing, you will need to login with your GitHub account credentials. See this [GitHub Desktop setup guide](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/setting-up-github-desktop) for more information.
 
-After installing, from the settings, choose VS Code as your default text editor, and either Terminal (Mac) or Git Bash (Windows) as your default command-line utility.
+After installing, from the settings, choose VS Code as your default text editor.
 
 ### Success Criteria
 
-You should be able to open the GitHub Desktop application, and visit the settings to see you are logged in with your GitHub account, and also see the desired tools selected in the integration settings.
-
-## Git CLI
-
-### Installation and Configuration
-
-Installing Git depends on your operating system:
-
-  + Windows users who have installed [Git Bash](https://git-scm.com/downloads) will have satisfied the Git installation requirement.
-  + Mac users may find that a system version of Git is already installed, and that might be sufficient to satisfy the Git installation requirement. Any Mac users who encounter errors or who desire a newer version of Git can install Git from <https://git-scm.com/downloads>, or consider [installing Homebrew](../notes/clis/brew.qmd), and using Homebrew to install Git (`brew install git`).
-
-### Success Criteria
-
-Verifying Git has been installed:
-
-```sh
-git --version
-```
+You should be able to open the GitHub Desktop application, and visit the settings to see you are logged in with your GitHub account.

@@ -1,8 +1,15 @@
-# "Hello Version Control" Exercise
+# "Hello, Version Control" Exercise
+
 
 ## Learning Objectives
 
 Gain familiarity with basic version control operations, including creating repositories, pushing and pulling code, and making commits.
+
+## Walkthrough Video
+
+{{< video https://www.youtube.com/watch?v=UCcbvta2dp4
+    title= "Hello, Version Control Exercise Walkthrough" >}}
+
 
 ## Instructions
 
@@ -34,15 +41,11 @@ For more information about Markdown syntax, see the [Markdown Cheat Sheet](https
 
 Once you see the updated README file contents reflected in your remote repository on GitHub, you have succeeded. Repeat the file-editing, committing and pushing steps at least one more time for good measure.
 
-## Walkthrough Video
 
-{{< video https://www.youtube.com/watch?v=UCcbvta2dp4
-    title= "Hello, Version Control Exercise Walkthrough"
->}}
 
 <hr>
 
-## Optional Further Exploration (Git CLI)
+## Alternative (Git CLI)
 
 Beginners are recommended to use GitHub Desktop to complete the exercise above, however if anyone is interested in completing the exercise using Git from the command line, see the commands below.
 
