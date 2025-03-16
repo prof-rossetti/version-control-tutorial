@@ -1,6 +1,6 @@
 
 :::{.content-hidden when-format="html" when-page="index"}
-# Version Control Basics
+# Version Control Tutorial
 :::
 
 

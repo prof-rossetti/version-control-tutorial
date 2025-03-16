@@ -8,7 +8,7 @@ project:
 # https://quarto.org/docs/books/
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "Version Control Basics"
+  title: "Version Control Tutorial"
   author: "Michael Rossetti"
   date: "last-modified" # "7/24/2024"
   date-format: "iso"
