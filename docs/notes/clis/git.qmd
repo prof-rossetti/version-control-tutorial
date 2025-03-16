@@ -4,8 +4,6 @@
 
 > Git is a free and open source distributed version control system. - [Git Website](https://git-scm.com/)
 
-[GitHub](https://github.com/), and competitors [BitBucket](https://bitbucket.org/product) and [GitLab](https://about.gitlab.com/), all use Git as the underlying version control system.
-
 ## References
 
 Official References:
@@ -16,8 +14,7 @@ Official References:
 Beginner References:
 
   + [Git Handbook](https://guides.github.com/introduction/git-handbook/)
-  + [Github Guides - YouTube Videos](https://www.youtube.com/githubguides)
-  + [An Intro to Git and GitHub - Youtube Video](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
+  + [An Intro to Git and GitHub](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
 
 Command-Line References:
 
