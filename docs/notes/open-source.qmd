@@ -1,0 +1,25 @@
+# Open Source Software
+
+
+**Open source software** is software whose source code is freely available for anyone to view, modify, and distribute. This access fosters a culture of transparency, collaboration, and innovation, enabling community-driven improvement and adaptation of software.
+
+Popular examples of open source software include: the [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) web browser, the [Linux](https://www.linux.org/) operating system, and the [WordPress](https://wordpress.org/) blogging platform. Additionally, Facebook's open source [React](https://react.dev/) platform is a great example of a big tech company successfully leveraging the benefits of crowd-sourced developer labor, without losing their competitive advantage.
+
+Platforms like [GitHub](http://github.com), [GitLab](https://gitlab.com), and/or [Bitbucket](https://bitbucket.org) can help individuals discover and collaborate on open source coding projects.
+
+Contributing to open source projects can help individuals demonstrate their credibility and skills to potential employers, build professional networks, and connect with like-minded individuals.
+
+Within an open source coding project, it is important to [choose an appropriate open source license](https://choosealicense.com/), to define how the software can be used, modified, and shared.
+
+By adopting and promoting open source software, individuals and organizations alike can actively participate in shaping the future of technology and innovation for generations to come.
+
+## Presentation
+
+<div class="my-responsive-iframe-container">
+<iframe class="my-responsive-iframe"
+        src="https://docs.google.com/presentation/d/e/2PACX-1vRNG1Dffdz8kxxG1bTRnzd3w3hdpVfRA340rRgBT2EZzjZv8_WltSIsQN6imKAbFXLzzNL7ZQn-rszp/embed?start=false&loop=false&delayms=3000"
+        frameborder="0"
+        allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"
+>
+</iframe>
+</div>

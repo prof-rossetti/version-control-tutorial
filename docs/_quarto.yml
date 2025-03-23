@@ -78,6 +78,7 @@ book:
 
     - part: "Notes"
       chapters:
+        - notes/open-source.qmd
         - notes/version-control.qmd
 
     #- "-------------"
