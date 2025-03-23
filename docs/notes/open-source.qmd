@@ -3,9 +3,11 @@
 
 **Open source software** is software whose source code is freely available for anyone to view, modify, and distribute. This access fosters a culture of transparency, collaboration, and innovation, enabling community-driven improvement and adaptation of software.
 
+![Open Source Software benefits the world. [Image Source](https://traefik.io/blog/how-contributing-to-open-source-benefits-developers-and-the-world/).](../images/open-source-benefits-the-world.jpg)
+
 Popular examples of open source software include: the [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) web browser, the [Linux](https://www.linux.org/) operating system, and the [WordPress](https://wordpress.org/) blogging platform. Additionally, Facebook's open source [React](https://react.dev/) platform is a great example of a big tech company successfully leveraging the benefits of crowd-sourced developer labor, without losing their competitive advantage.
 
-Platforms like [GitHub](http://github.com), [GitLab](https://gitlab.com), and/or [Bitbucket](https://bitbucket.org) can help individuals discover and collaborate on open source coding projects.
+[Version control](./version-control.qmd) tools like Git, and platforms like [GitHub](http://github.com), [GitLab](https://gitlab.com), and/or [Bitbucket](https://bitbucket.org) can help individuals discover and collaborate on open source coding projects.
 
 Contributing to open source projects can help individuals demonstrate their credibility and skills to potential employers, build professional networks, and connect with like-minded individuals.
 
