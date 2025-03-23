@@ -20,7 +20,6 @@ Once installed, you should be able to open the VS Code application.
 
 This should be sufficient to get started, however if you are interested in optionally exploring some advanced tips and configuration settings, take a look at the sections below.
 
-<hr>
 
 ### Tips and Tricks (Optional)
 
@@ -72,7 +71,6 @@ code .
 code path/to/my-project
 ```
 
-<hr>
 
 ### Configurations (Optional)
 
