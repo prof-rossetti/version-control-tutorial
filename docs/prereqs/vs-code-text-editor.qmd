@@ -10,10 +10,149 @@ There are many text editor options out there, and it seems each developer has th
 
 Our preferred text editor is called Visual Studio Code, or \"VS Code\" for short.
 
-### Installation and Configuration
+### Installation
 
 Unless you already have a text editor of choice, install [VS Code](https://code.visualstudio.com/).
 
 ### Success Criteria
 
-You should be able to open the VS Code application.
+Once installed, you should be able to open the VS Code application.
+
+This should be sufficient to get started, however if you are interested in optionally exploring some advanced tips and configuration settings, take a look at the sections below.
+
+<hr>
+
+### Tips and Tricks (Optional)
+
+These are some of the author's tips and tricks, for your reference. Feel free but not obligated to use them.
+
+#### Command Pallette
+
+The [Command Pallette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) is by far one of the most powerful menu options in VS Code. You can open the Command Pallette with the keyboard shortcut "Command + Shift + P". Once opened, you can type commands to execute certain helpful actions in the text editor.
+
+![The Command Pallette in VS Code.](../images/command-pallette.png)
+
+#### Vertical Column Selection
+
+Vertical column selection allows us to edit multiple lines simultaneously. This can be helpful if you have to change multiple lines of text at the same time, for example commenting-out many lines at once.
+
+To perform a vertical column selection:
+
+  1. Click the cursor on the first line where we want to start the selection (where we would type our first comment character)
+  2. Then press and hold “shift + option” on Mac, or “shift + alt” on Windows.
+  3. Then click and drag straight down, and release the keys you were holding.
+  4. Finally type a comment character (or whatever text you’d like), and notice it will be typed onto all the selected lines.
+
+
+![Demonstration of vertical column selection for editing many lines at once.](https://user-images.githubusercontent.com/1328807/50870478-2e9b8400-1386-11e9-9378-0afadc4a7dce.gif)
+
+<!--
+![Demonstration of vertical column selection for commenting many lines at once.](https://prof-rossetti.github.io/intro-software-dev-python-book/images/vertical-column-select.gif)
+-->
+
+This can definitely take some practice to get right, so feel free to reach out to an instructor for help.
+
+#### Shell Commands
+
+:::{.callout-note}
+Shell commands are only relevant for individuals who use the command line. Beginners who aren't using the command line, or who are unfamiliar with the command line, should skip this section.
+:::
+
+Shell commands will allow us to open a VS Code window from the command line.
+
+Shell commands are enabled by default on Windows. To enable shell commands on Mac, follow [these steps](https://code.visualstudio.com/docs/setup/mac#_launch-vs-code-from-the-command-line).
+
+After enabling shell commands, you should be able to use the `code` command from the Terminal, to open files and folders at a specific filepath:
+
+```sh
+# open all files and folders in the current working directory:
+code .
+
+# open all files and folders in the specified directory, e.g. "path/to/my-project":
+code path/to/my-project
+```
+
+<hr>
+
+### Configurations (Optional)
+
+These are some of the author's personal VS Code configurations, for your reference. Feel free but not obligated to use them.
+
+#### Recommended Extensions
+
+The extensions menu can be used to search and manage third party plugins that provide helpful capabilities. To view the extensions menu, use the top menu bar ("View" > "Extensions"), or use the keyboard shortcut "command + shift + X".
+
+Here is a sample of the author's installed VS Code extensions that are language-agnostic and helpful for working on any type of coding project:
+
+Extension Identifier | Description / Purpose
+--- | ---
+`whizkydee.material-palenight-theme` | An elegant and juicy color theme for Visual Studio Code.
+`xamm.filepath` | Shows the filepath of the current file in the editor and enables the user to click on the path to open the explorer in this location.
+`sleistner.vscode-fileutils` | A convenient way of creating, duplicating, moving, renaming and deleting files and directories.
+`streetsidesoftware.code-spell-checker` | A basic spell checker that works well with code and documents.
+`yzhang.markdown-all-in-one` | All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+Additionally, language-specific extensions can be installed to facilitate intelligent autocompletion of code, to save you time when developing.
+
+
+#### Recommended User Settings
+
+Use the command palette and start typing "settings" to find the "Preferences > Open Settings (JSON)" setting which should yield a snippets JSON file.
+
+Feel free to optionally update yours to include any of these settings overrides:
+
+```json
+{
+  "workbench.colorTheme": "Palenight Theme",
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "telemetry.telemetryLevel": "off",
+}
+```
+
+FYI: the `files` related settings help clean files in a standard way upon saving them, and are especially helpful for developers working in teams.
+
+
+
+#### Recommended Keyboard Shortcuts
+
+Use the command palette and start typing "shortcuts" to find the "Preferences > Open Keyboard Shortcuts (JSON)" setting which should yield a snippets JSON file.
+
+Feel free to optionally update yours to include any of these keyboard shortcut overrides:
+
+```json
+[
+    {
+        "key": "cmd+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "editor.action.duplicateSelection"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "markdown-preview-enhanced.openPreview",
+        "when": "editorLangId == 'markdown'"
+    },
+]
+
+```
+
+After enabling these shortcuts:
+
+  + the "Command + \\" shortcut can now be used to toggle visibility of the left sidebar
+  + the "Shift + Command + D" shortcut can be used to duplicate a line of code, without copying it (this is handy when you have other content in the clipboard ready to be pasted)
+  + the "Command + T" shortcut can now be used to easily search for files by their name
+  + the "Control + Shift + M" shortcut, when a markdown file is open, will preview the contents of that markdown file in a new tab
