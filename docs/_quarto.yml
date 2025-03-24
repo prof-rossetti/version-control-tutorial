@@ -65,6 +65,17 @@ book:
 
     #- "-------------"
 
+    - part: "Notes"
+      chapters:
+        - notes/open-source.qmd
+        - notes/version-control.qmd
+
+
+
+
+
+    #- "-------------"
+
     - part: "Dev Tools Setup"
       chapters:
         - prereqs/github.qmd
@@ -72,14 +83,6 @@ book:
         - href: prereqs/git-client.qmd
           text: "GitHub Desktop"
 
-
-
-    #- "-------------"
-
-    - part: "Notes"
-      chapters:
-        - notes/open-source.qmd
-        - notes/version-control.qmd
 
     #- "-------------"
     - part: "Exercises"
@@ -92,6 +95,7 @@ book:
           text: Dev Team Collaboration
         - href: exercises/open-source-collaboration/index.qmd
           text: Open Source Collaboration
+
 
 
 
