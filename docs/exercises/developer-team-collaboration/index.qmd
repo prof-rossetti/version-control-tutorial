@@ -4,6 +4,11 @@
 
 Adopt a Pull Request Workflow to collaborate with teammates, on team projects where you have write access to the repository.
 
+## Walkthrough Video
+
+{{< video https://www.youtube.com/watch?v=tbzI8UbT_uc
+    title= "Developer Team Collaboration Exercise Walkthrough" >}}
+
 ## Instructions
 
 For teams who want everyone to have write access to the same shared repo, see the process below:
