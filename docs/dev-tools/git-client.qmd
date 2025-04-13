@@ -1,0 +1,29 @@
+
+# Git Clients
+
+Git is the underlying version control system used by platforms like GitHub.
+
+The goal of a Git client is to help us track changes in our code, and interface with code hosting platforms like GitHub.
+
+Professionals may prefer to use [Git from the command line](./clis/git.qmd), but there is a learning curve. Instead, beginners are encouraged to get started with GitHub Desktop, which provides an easier to use graphical user interface (GUI).
+
+## GitHub Desktop
+
+### Installation and Configuration
+
+First, install [GitHub Desktop software](https://desktop.github.com/), for Mac or Windows.
+
+After installing, you are encouraged to configure certain settings. See this [GitHub Desktop setup guide](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/setting-up-github-desktop) for more detailed instructions.
+
+From the "Accounts" settings, you will need to login with your GitHub account credentials to associate your work with your GitHub profile, and to push and pull code to GitHub on your behalf.
+
+![Logging in with your GitHub Account in GitHub Desktop.](../images/github-desktop-settings-accounts.png)
+
+From the "Integrations" settings, choose your default text editor (e.g. VS Code). This will configure certain buttons and menu options in GitHub Desktop that will help you easily open your coding project in the text editor in the future.
+
+![Configuring preferred tools in GitHub Desktop.](../images/github-desktop-settings-integrations.png)
+
+
+### Success Criteria
+
+You should be able to open the GitHub Desktop application, and visit the settings to see you are logged in with your GitHub account.

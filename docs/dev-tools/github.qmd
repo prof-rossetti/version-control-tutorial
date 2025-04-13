@@ -11,4 +11,6 @@ Afterwards, consider signing up for the [GitHub Student Developer Pack](https://
 
 ## Success Criteria
 
-If successful, when you view this (or any) repository on GitHub, you should be able to click the buttons on the top-right of the page to "Star" this repository, and also optionally "Fork" it (i.e. create a copy under your own control).
+If successful, when you view a repository on GitHub, you should be able to click the buttons on the top-right of the page to "Star" the repository, and also "Fork" it (i.e. create a copy under your own control).
+
+With a few clicks, you are getting started in the world of version control and open source software.

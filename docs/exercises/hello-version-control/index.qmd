@@ -1,5 +1,14 @@
 # "Hello, Version Control" Exercise
 
+## Motivation
+
+:::{.callout-tip title="The World's Largest Jam Session"}
+Imagine walking into a park where musicians from all over the world are jamming together. Some are pros, others are just learning, but the melody is constantly evolving — new riffs, unexpected harmonies, shared rhythms.
+
+That's open source software. It's a space where someone's starter code becomes someone else's masterpiece. Where ideas remix and evolve out in the open. Where the act of contributing, no matter how small, helps shape the music that powers the digital world.
+
+You don't need to be a rockstar to join. Just pick up your instrument and start playing.
+:::
 
 ## Learning Objectives
 

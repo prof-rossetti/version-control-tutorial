@@ -1,23 +1,10 @@
 # Open Source Software
 
 
-**Open source software** is software whose source code is freely available for anyone to view, modify, and distribute. This access fosters a culture of transparency, collaboration, and innovation, enabling community-driven improvement and adaptation of software.
+## [Presentation](https://docs.google.com/presentation/d/1ACcPoTzu_r4JpwRvmWT-mWgChP0c10MefWizC9-OOG0/edit?usp=sharing)
 
-![Open Source Software benefits the world. [Image Source](https://traefik.io/blog/how-contributing-to-open-source-benefits-developers-and-the-world/).](../images/open-source-benefits-the-world.jpg)
 
-Popular examples of open source software include: the [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) web browser, the [Linux](https://www.linux.org/) operating system, and the [WordPress](https://wordpress.org/) blogging platform. Additionally, Facebook's open source [React](https://react.dev/) platform is a great example of a big tech company successfully leveraging the benefits of crowd-sourced developer labor, without losing their competitive advantage.
-
-[Version control](./version-control.qmd) tools like Git, and platforms like [GitHub](http://github.com), [GitLab](https://gitlab.com), and/or [Bitbucket](https://bitbucket.org) can help individuals discover and collaborate on open source coding projects.
-
-Contributing to open source projects can help individuals demonstrate their credibility and skills to potential employers, build professional networks, and connect with like-minded individuals.
-
-Within an open source coding project, it is important to [choose an appropriate open source license](https://choosealicense.com/), to define how the software can be used, modified, and shared.
-
-By adopting and promoting open source software, individuals and organizations alike can actively participate in shaping the future of technology and innovation for generations to come.
-
-## Presentation
-
-<div class="my-responsive-iframe-container">
+<div class="my-responsive-iframe-container" style="margin-bottom:15px">
 <iframe class="my-responsive-iframe"
         src="https://docs.google.com/presentation/d/e/2PACX-1vRNG1Dffdz8kxxG1bTRnzd3w3hdpVfRA340rRgBT2EZzjZv8_WltSIsQN6imKAbFXLzzNL7ZQn-rszp/embed?start=false&loop=false&delayms=3000"
         frameborder="0"
@@ -25,3 +12,122 @@ By adopting and promoting open source software, individuals and organizations al
 >
 </iframe>
 </div>
+
+
+## What is Open Source?
+
+### Access to Code
+
+**Open source software** features source code that is freely available for anyone to view, modify, and distribute.
+
+### Culture of Collaboration
+
+This access fosters a culture of transparency, collaboration, and innovation, enabling community-driven improvement and adaptation of software.
+
+![Open Source Software benefits the world. [Image Source](https://traefik.io/blog/how-contributing-to-open-source-benefits-developers-and-the-world/).](../images/open-source-benefits-the-world.jpg)
+
+### Popular Examples
+
+Popular examples of open source software include: the [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) web browser, the [Linux](https://www.linux.org/) operating system, and the [WordPress](https://wordpress.org/) blogging platform.
+
+Additionally, Facebook's open source [React](https://react.dev/) platform is a great example of a big tech company successfully leveraging the benefits of crowd-sourced developer labor, without losing their competitive advantage.
+
+
+## Why Open Source?
+
+Contributing to open source projects can help individuals demonstrate their credibility and skills to potential employers, build professional networks, and connect with like-minded individuals.
+
+### Demonstrate Credibility
+
+In the world of open source, your work speaks for itself. Every pull request, issue comment, or code review becomes a part of your public track record — tangible proof of what you can build, how you collaborate, and how you solve problems.
+
+Unlike a private resume or a job interview, open source allows you to show, not tell. You're not just claiming to know how to write clean code or debug a tricky issue — you're demonstrating it in front of peers, contributors, and potential employers. It's a portfolio that evolves in real time, built on transparency and action.
+
+Better still, your contributions are visible to a global audience. A single thoughtful comment on a GitHub issue or a well-documented fix to an obscure bug can spark conversations, earn respect, and open doors. For developers from nontraditional backgrounds, open source can be a powerful equalizer — where credibility is earned not through credentials, but through code.
+
+### Make Friends
+
+One of the most rewarding parts of contributing to open source isn't just the code — it's the people. When you show up to a project with curiosity and care, you'll often find others who share your interests in your technical passions.
+
+Open source brings together folks from all over the world, across time zones and cultures, united by a shared desire to build something meaningful.
+
+Whether it's pairing on a tricky bug, chatting in a project's Discord server, or celebrating a merged pull request, open source is full of small moments that spark connection. Over time, collaborators become colleagues, and colleagues become friends — people you learn from, laugh with, and maybe even meet in real life at a conference someday.
+
+It's not just about networking. It's about belonging. Open source gives you a space where you can be seen and valued for what you contribute — not just where you went to school or who you know. And that's a powerful way to find your people.
+
+### Drive Humanity Forward
+
+By adopting and promoting open source software, individuals and organizations alike can actively participate in shaping the future of technology and innovation for generations to come.
+
+:::{.callout-tip title="Vignette: A World Without Open Source"}
+Imagine a city filled with bridges — elegant, essential, and everywhere. You cross them daily, but you're never allowed to look underneath. If one creaks, you report it. If one breaks, you wait. If you dream of a better bridge, you're told, "That's not your job."
+
+Now picture a different city. One where every bridge's blueprints are shared openly. Anyone can study them, repair them, or improve them. People from different backgrounds come together to build safer, more efficient, more beautiful bridges — not because they were told to, but because they care, they're curious, or they simply want to help. A crack isn't a dead end — it's a call to collaborate. New ideas aren't gatekept — they're welcomed.
+
+That's the spirit of open source software. It turns us from passive users into active creators. It invites us not just to use the tools of the future — but to help build them.
+
+Open source isn't just about code. It's about access, community, and agency. It's the difference between being a consumer of technology and being a participant in it.
+:::
+
+
+## How to Open Source?
+
+### Version Control
+
+Open source software and [version control](./version-control.qmd) go hand-in-hand.
+
+Version control tools like Git, and platforms like [GitHub](http://github.com), [GitLab](https://gitlab.com), and/or [Bitbucket](https://bitbucket.org) can help individuals discover and collaborate on open source coding projects.
+
+Beginners can get started using tools like [GitHub Desktop](../dev-tools/git-client.qmd#github-desktop), and consider learning [command-line Git](../dev-tools/clis/git.qmd) if interested.
+
+### Choose a License
+
+Within an open source coding project, it is important to [choose an appropriate open source license](https://choosealicense.com/), to define how the software can be used, modified, and shared.
+
+
+## When to Open Source?
+
+### Default to Open
+
+When starting a new project, it's often easiest, and most impactful, to default to open. Unless there's a clear reason your code needs to remain private (such as proprietary data, sensitive credentials, or early-stage experimentation you're not ready to share), consider making the repository public from the start. Open projects invite collaboration, feedback, and visibility, even in their earliest stages.
+
+### Save Work in Progress
+
+One of the biggest misconceptions about open source is that your code has to be perfect before you share it — but that couldn't be further from the truth. Software development is, by nature, an iterative process. Posting your work early, even if it's messy or incomplete, is not only acceptable — it's encouraged. It invites feedback, sparks collaboration, and helps others see how a project grows over time. You don't need to feel embarrassed about TODOs, rough drafts, or unfinished features. Everyone starts somewhere, and by working in the open, you're showing that you value progress over perfection. In fact, many contributors are more inspired to help when they can see that a project is still evolving and open to new ideas.
+
+Version control provides a clear history of your work, so you can revisit previous ideas, experiments, or fixes without fear of overwriting or losing anything important.
+
+Hosting your code in a public version-controlled repository gives you a reliable, cloud-based backup. No more lost files because your laptop crashed or your hard drive failed — your progress is safe, recoverable, and always accessible, even from multiple devices.
+
+
+### Publish Finished Work
+
+When a project reaches a stable point — whether it's a tool you built, a library you refined, or a script you've polished — it's worth publishing. Sharing your finished work in the open turns it into something more than a personal achievement: it becomes a resource others can learn from, build on, or even improve. Open sourcing completed projects not only boosts your portfolio, but also creates real value for the community. Even if your solution seems small or specific, chances are someone else has faced a similar problem and will benefit from your work. Finished doesn't mean flawless — it means usable, valuable, and worth sharing.
+
+This principle extends powerfully into scholarly work as well. If you're publishing a research paper that involves code — data analysis, simulations, visualizations — it's essential to provide that code alongside your article. Open sourcing your research code ensures transparency, reproducibility, and reusability, all of which are foundational to credible science. Too many papers remain black boxes: impressive results, but no way to inspect the machinery behind them. If you're a researcher, consider posting your pre-prints on [Arxiv](https://arxiv.org/), and publish your work in **open access journals** that support open science, such as [PLOS One](https://journals.plos.org/plosone/). Open publishing ensures that your work isn't locked behind a paywall, maximizing both reach and impact.
+
+Finished work, when made open, can go far beyond your personal use case. It becomes part of the collective knowledge and infrastructure that others rely on. It becomes part of something bigger.
+
+### Leverage the Crowd
+
+One of the most powerful advantages of open source is the ability to tap into the collective intelligence of the global developer community. When you open your code to the world, you're not working alone — you're inviting testers, contributors, and experts to help you spot bugs, suggest features, improve documentation, and solve problems you might not have even considered.
+
+Open source allows both individuals and organizations alike to scale their impact beyond the limits of their own time and expertise. Whether it's a one-line fix from a stranger or a major feature from a regular contributor, the crowd can transform your project in ways that would be nearly impossible in isolation.
+
+
+
+:::{.callout-note title="Case Study: Facebook and the React Revolution"}
+In 2013, Facebook made a bold move: it open sourced React, the internal JavaScript library it had developed to build fast, dynamic user interfaces. At the time, it was an unconventional choice. Why give away something that gave them a competitive edge?
+
+The answer became clear in the years that followed. By open sourcing React, Facebook tapped into a global community of developers who quickly embraced the framework, contributed improvements, built complementary tools, and spread its adoption across industries. React didn't just grow — it became the dominant UI library in web development.
+
+This community involvement accelerated React's evolution far beyond what Facebook could have achieved alone. And while Facebook gave the core technology away, they retained significant strategic advantage:
+
+ + They shaped industry standards.
+ + They attracted top developer talent.
+ + They benefited from constant real-world testing and feedback.
+
+Open sourcing React turned a company-specific tool into a global infrastructure project built, improved, and maintained by thousands.
+
+The takeaway? Open source doesn't mean giving up your edge. It means scaling your innovation through community, creating lasting impact, and earning trust from the developer ecosystem that shapes the future of tech.
+:::

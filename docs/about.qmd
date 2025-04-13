@@ -1,0 +1,9 @@
+# About
+
+## Sponsoring Organization
+
+The [GW Open Source Program Office (OSPO)](http://ospo.gwu.edu/) supports the GW community in their use of open-source tools, helps researchers comply with Open Science policies, and trains users in open-source development. The OSPO aims to help foster a culture of open collaboration and knowledge-sharing, aligned with the research and education missions of the university.
+
+## About the Author
+
+[Michael Rossetti](https://michael-rossetti.org/) is a data scientist, software developer, and adjunct professor. He has worked as a polling data analyst for a winning US Presidential campaign, a data analytics director for a Silicon Valley startup, and a technology consultant for the US Government. As an adjunct professor, he has taught courses in data science, computer science, and software development at universities including New York University, Georgetown University, and the George Washington University.

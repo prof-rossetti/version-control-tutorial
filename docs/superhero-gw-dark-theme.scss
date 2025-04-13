@@ -1,0 +1,48 @@
+
+/*-- scss:defaults --*/
+
+//$body-bg: #033C5A;
+
+//$bs-link-color-rgb: 168, 153,104 !important;
+//$link-color:
+// $bs-body-bg: #033C5A !important;
+//$bs-link-color: #AA9868 !important;
+//$mermaid-label-fg-color: #AA9868 !important;
+//$bs-link-color-rgb: rgb(168, 153,104) !important;
+
+/*-- scss:rules --*/
+
+
+body.quarto-dark {
+
+  //--bs-link-color-rgb: rgb(168, 153,104) !important;
+
+  //background-color: #033C5A !important;
+
+  .sidebar nav[role=doc-toc] ul > li > a.active,
+  .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+    border-left: 1px solid #AA9868 !important;
+    color: #AA9868 !important;
+    // background-color: #2a2a2a;
+  }
+
+
+  .sidebar-link.active {
+    color: #AA9868 !important;
+  }
+
+  li.breadcrumb-item::before > a {
+    color: #AA9868 !important;
+  }
+
+  //a {
+  //  color: #AA9868 !important;
+  //}
+
+  //a.active,
+  //a:hover {
+  //  color: #AA9868 !important;
+  //}
+
+
+}

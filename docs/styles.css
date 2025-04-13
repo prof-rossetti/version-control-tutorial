@@ -6,10 +6,11 @@
 */
 
 /* hide just the book title in the sidebar
+*/
+
 .sidebar-title > a {
   display: none;
 }
-*/
 
 /* display a border on the left sidebar */
 #quarto-sidebar {
@@ -33,6 +34,28 @@
 }
 
 */
+
+
+/*
+DARK THEME
+background-color: #eeee;
+
+
+body.quarto-dark{
+  background-color: #033C5A !important;
+}
+
+body.quarto-dark div.quarto-content {
+  background-color: #033C5A !important;
+}
+
+body.quarto-dark a.sidebar-link.active,
+body.quarto-dark a.nav-link.active {
+  color: #AA9868 !important;
+}
+
+*/
+
 
 /*
 RESPONSIVE IFRAME

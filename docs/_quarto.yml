@@ -38,12 +38,14 @@ book:
     #location: sidebar # navbar, sidebar
     #type: textbox # overlay, textbox
 
+  reader-mode: true
+
   #cover-image: images/cover.png
   #favicon: images/favicon.ico
 
   # https://quarto.org/docs/websites/website-navigation.html#side-navigation
-  #sidebar:
-  #  logo: images/ospo-logo.png
+  sidebar:
+    logo: images/ospo-logo.png
 
   #sidebar:
   #  contents:
@@ -76,11 +78,11 @@ book:
 
     #- "-------------"
 
-    - part: "Dev Tools Setup"
+    - part: "Development Tools"
       chapters:
-        - prereqs/github.qmd
-        - prereqs/vs-code-text-editor.qmd
-        - href: prereqs/git-client.qmd
+        - dev-tools/github.qmd
+        - dev-tools/vs-code-text-editor.qmd
+        - href: dev-tools/git-client.qmd
           text: "GitHub Desktop"
 
 
@@ -100,12 +102,16 @@ book:
 
 
     - "-------------"
+    - about.qmd
+    - "-------------"
 
 
   appendices:
-    - href: notes/clis/brew.qmd
-      text: "Homebrew (Mac OS)"
-    - notes/clis/git.qmd
+    - part: "Command-line Tools"
+      chapters:
+      - href: dev-tools/clis/brew.qmd
+        text: "Homebrew (Mac OS)"
+      - dev-tools/clis/git.qmd
 
   # shows up at bottom of page
   #body-footer: "&copy; Copyright 2024, Your Name Here"
@@ -119,13 +125,19 @@ book:
 
 format:
   html:
+    toc: true
+    toc-depth: 6
+    toc-expand: true # keep all levels visible
     # https://quarto.org/docs/output-formats/html-themes.html
     theme:
       light: default #flatly
-      dark: darkly
+      dark: solar # vapor # superhero # slate # solar #quartz # darkly
+      #dark: [superhero, superhero-gw-dark-theme.scss]
     css: styles.css
     number-sections: false
     from: markdown+emoji # enable emojis
+
+
 
 
   #pdf:

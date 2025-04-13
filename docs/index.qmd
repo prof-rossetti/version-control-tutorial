@@ -3,8 +3,21 @@
 # Version Control Tutorial
 :::
 
+<p style="font-size:20px;">
+Demystify the version control process, and learn how to collaborate on coding projects with other researchers and developers.
+</p>
 
-Demystify the version control process and learn how to collaborate on coding projects with other researchers and developers.
+
+
+
+
+## Overview
+
+This tutorial will begin by introducing key concepts and motivations behind version control, highlighting its value in research and software development.
+
+Next, the tutorial will guide you through installing and configuring beginner-friendly tools to get started with version control.
+
+Finally, the tutorial will provide hands-on exercises with step-by-step instructions and walkthrough videos to help you practice essential version control workflows, including team collaboration and contributing to open source projects.
 
 ## Learning Objectives
 
