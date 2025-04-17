@@ -9,7 +9,7 @@ project:
 # https://quarto.org/docs/reference/projects/books.html
 book:
   title: "Version Control Tutorial"
-  author: "Michael Rossetti"
+  author: "Michael J Rossetti"
   date: "last-modified" # "7/24/2024"
   date-format: "iso"
   #doi: "...."
@@ -118,7 +118,11 @@ book:
 
   page-footer:
     center: |
-      <p>&copy; Copyright 2025, GWU Open Source Program Office (OSPO)</p>
+      <p>&copy; Copyright 2025, <a href="https://ospo.gwu.edu/">GWU Open Source Program Office (OSPO)</a>.
+        Authored by <a href="https://michael-rossetti.org/">Michael J Rossetti</a>.
+        Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.
+      </p>
+
 
 
 #bibliography: references.bib

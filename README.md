@@ -21,3 +21,16 @@ Finally, the tutorial provides hands-on exercises with step-by-step instructions
 5. Practice a version controlled development workflow.
 5. Employ Git branching strategies to manage different versions of code.
 6. Collaborate with peers by pulling and merging changes from a shared repository.
+
+
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+Copyright © 2025, [Michael J Rossetti](https://michael-rossetti.org/).
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
