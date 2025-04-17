@@ -116,9 +116,9 @@ book:
   # shows up at bottom of page
   #body-footer: "&copy; Copyright 2024, Your Name Here"
 
-  #page-footer:
-  #  center: |
-  #    <p>&copy; Copyright 2024, GWU Open Source Program Office (OSPO)</p>
+  page-footer:
+    center: |
+      <p>&copy; Copyright 2025, GWU Open Source Program Office (OSPO)</p>
 
 
 #bibliography: references.bib
