@@ -19,8 +19,8 @@ book:
 
 #website:
 
-  site-url: https://prof-rossetti.github.io/version-control-tutorial
-  repo-url: https://github.com/prof-rossetti/version-control-tutorial
+  site-url: https://gw-ospo.github.io/version-control-tutorial
+  repo-url: https://github.com/gw-ospo/version-control-tutorial
   repo-branch: main
   repo-subdir: docs
   repo-actions: [edit, issue, source]
