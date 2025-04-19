@@ -4,6 +4,11 @@
 
 Adopt and practice a Pull Request Workflow to collaborate with people you don't know, on open source projects where you don't have write access to the repository.
 
+## Walkthrough Video
+
+{{< video https://youtu.be/X0UQAVwzBZE
+    title= "Open Source Collaboration Exercise Walkthrough" >}}
+
 ## Instructions
 
 This is the process we will follow to add or revise the functionality of repos we don't own or have write access to:
