@@ -9,6 +9,8 @@ Adopt and practice a Pull Request Workflow to collaborate with people you don't 
 {{< video https://youtu.be/X0UQAVwzBZE
     title= "Open Source Collaboration Exercise Walkthrough" >}}
 
+> Thanks to [Reed Uhlik](https://www.reeduhlik.com/) for collaborating on this video.
+
 ## Instructions
 
 This is the process we will follow to add or revise the functionality of repos we don't own or have write access to:
