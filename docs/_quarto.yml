@@ -89,14 +89,14 @@ book:
     #- "-------------"
     - part: "Exercises"
       chapters:
-        - href: exercises/hello-version-control/index.qmd
-          text: Hello Version Control
-        - href: exercises/pull-request-workflow/index.qmd
+        - href: exercises/1-version-control-workflow/index.qmd
+          text: Version Control Workflow
+        - href: exercises/2-pull-request-workflow/index.qmd
           text: Pull Request Workflow
-        - href: exercises/developer-team-collaboration/index.qmd
-          text: Dev Team Collaboration
-        - href: exercises/open-source-collaboration/index.qmd
-          text: Open Source Collaboration
+        - href: exercises/3-developer-team-workflow/index.qmd
+          text: Dev Team Workflow
+        - href: exercises/4-open-source-workflow/index.qmd
+          text: Open Source Workflow
 
 
 

@@ -1,4 +1,4 @@
-# "Hello, Version Control" Exercise
+# "Version Control Workflow" Exercise
 
 ## Learning Objectives
 
@@ -7,7 +7,7 @@ Gain familiarity with basic version control operations, including creating repos
 ## Walkthrough Video
 
 {{< video "https://vimeo.com/1078779616"
-    title= "Hello, Version Control Exercise Walkthrough" >}}
+    title= "Version Control Workflow - Exercise Walkthrough" >}}
 
 ## Instructions
 
