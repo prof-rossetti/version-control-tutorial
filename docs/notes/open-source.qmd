@@ -92,6 +92,7 @@ Beginners can get started using tools like [GitHub Desktop](../dev-tools/git-cli
 
 Within an open source coding project, it is important to [choose an appropriate open source license](https://choosealicense.com/), to define how the software can be used, modified, and shared.
 
+For more information about licensing, see this in-depth [Open Source Licensing Tutorial](https://gw-ospo.github.io/oss-licensing/intro.html).
 
 ## When to Open Source?
 
