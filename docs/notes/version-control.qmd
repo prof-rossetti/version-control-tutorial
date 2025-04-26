@@ -10,6 +10,7 @@
 
 The importance of version control extends beyond software development; it is also used in writing, research, and design projects.
 
+
 ## Categories of Version Control Systems
 
 There are two main types of version control: centralized and distributed. Centralized version control systems (CVCS), such as Subversion (SVN), use a single repository for storing all versions, while distributed version control systems (DVCS), like Git, provide each user with a complete copy of the project history, enhancing flexibility and collaboration.
