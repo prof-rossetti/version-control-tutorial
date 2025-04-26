@@ -13,6 +13,7 @@
 </iframe>
 </div>
 
+The content below provides a written narrative to expand upon the key points from this presentation.
 
 ## What is Open Source?
 
