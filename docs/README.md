@@ -41,20 +41,6 @@ FYI the following command was used to initialize the quarto config:
 
 In the docs/_quarto.yml file, the output directory was changed from _book to _build to standardize across projects, enabling the usage of common workflow files and makefile.
 
-## Customization
-
-We are using environment variables to customize video URLs across different copies of the repository.
-
-To set your own video URLs for local development, create a ".env" file in the "docs" folder, and place contents inside like the following:
-
-```sh
-# this is the docs/.env" file...
-
-EXERCISE_1_VIDEO_URL="https://www.youtube.com/watch?v=UCcbvta2dp4"
-EXERCISE_2_VIDEO_URL="https://www.youtube.com/watch?v=NTzUbULGc3o"
-EXERCISE_3_VIDEO_URL="https://www.youtube.com/watch?v=vsewcY7jwYA"
-EXERCISE_4_VIDEO_URL="https://www.youtube.com/watch?v=X0UQAVwzBZE"
-```
 
 ## Building
 
@@ -80,5 +66,3 @@ quarto render docs/ --verbose
 We are using the ["deploy.yml" workflow configuration file](/.github/workflows/deploy.yml) to deploy the site to GitHub Pages when new commits are pushed to the main branch.
 
 In order for this to work, you first need to configure your GitHub Pages repo settings to publish via GitHub Actions.
-
-If you would like to customize environment variables, you will also need to set them as repository secrets using the repository settings. The GitHub Actions workflow file will read repository secrets and pass them to the build as environment variables (no ".env" file necessary in production).

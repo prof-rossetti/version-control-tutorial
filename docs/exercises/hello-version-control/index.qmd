@@ -1,7 +1,3 @@
----
-jupyter: python3
----
-
 # "Hello, Version Control" Exercise
 
 ## Learning Objectives
@@ -10,19 +6,8 @@ Gain familiarity with basic version control operations, including creating repos
 
 ## Walkthrough Video
 
-```{python}
-#| echo: false
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-VIDEO_URL = os.getenv("EXERCISE_1_VIDEO_URL", default="https://www.youtube.com/watch?v=UCcbvta2dp4")
-```
-
-{{< video "`{python} VIDEO_URL`"
+{{< video "https://vimeo.com/1078779616"
     title= "Hello, Version Control Exercise Walkthrough" >}}
-
 
 ## Instructions
 
