@@ -23,14 +23,13 @@ Finally, the tutorial provides hands-on exercises with step-by-step instructions
 6. Collaborate with peers by pulling and merging changes from a shared repository.
 
 
+## Contributing
+
+See the [Contributor's Guide](docs/README.md) for more information ab out how to set up, run, and contribute to this repository.
 
 ## License
 
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-Copyright © 2025, [Michael J Rossetti](https://michael-rossetti.org/).
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+<p>&copy; Copyright 2025, <a href="https://ospo.gwu.edu/">GWU Open Source Program Office (OSPO)</a>.
+  Authored by <a href="https://michael-rossetti.org/">Michael J Rossetti</a>.
+  Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.
+</p>
