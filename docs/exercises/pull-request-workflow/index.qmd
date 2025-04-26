@@ -1,3 +1,10 @@
+---
+jupyter: python3
+#execute:
+#  cache: true # re-render only when source changes
+# FYI: inline expressions can't be used with jupyter cache
+---
+
 # "Pull Request Workflow" Exercise
 
 ## Learning Objectives
@@ -6,8 +13,18 @@ Adopt a Pull Request Workflow to collaborate with yourself (on independent proje
 
 ## Walkthrough Video
 
-{{< video https://www.youtube.com/watch?v=NTzUbULGc3o
-    title= "Pull Request Workflow Exercise Walkthrough" >}}
+```{python}
+#| echo: false
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+VIDEO_URL = os.getenv("EXERCISE_2_VIDEO_URL", default="https://www.youtube.com/watch?v=NTzUbULGc3o")
+```
+
+{{< video "`{python} VIDEO_URL`"
+    title="Pull Request Workflow Exercise Walkthrough" >}}
 
 ## Instructions
 

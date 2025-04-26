@@ -1,3 +1,7 @@
+---
+jupyter: python3
+---
+
 # "Open Source Collaboration" Exercise
 
 ## Learning Objectives
@@ -6,10 +10,23 @@ Adopt and practice a Pull Request Workflow to collaborate with people you don't 
 
 ## Walkthrough Video
 
-{{< video https://youtu.be/X0UQAVwzBZE
-    title= "Open Source Collaboration Exercise Walkthrough" >}}
+
+```{python}
+#| echo: false
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+VIDEO_URL = os.getenv("EXERCISE_4_VIDEO_URL", default="https://www.youtube.com/watch?v=X0UQAVwzBZE")
+```
+
+{{< video "`{python} VIDEO_URL`"
+    title="Open Source Collaboration Exercise Walkthrough" >}}
+
 
 > Thanks to [Reed Uhlik](https://www.reeduhlik.com/) for collaborating on this video.
+
 
 ## Instructions
 

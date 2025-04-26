@@ -1,3 +1,7 @@
+---
+jupyter: python3
+---
+
 # "Developer Team Collaboration" Exercise
 
 ## Learning Objectives
@@ -6,7 +10,17 @@ Adopt a Pull Request Workflow to collaborate with teammates, on team projects wh
 
 ## Walkthrough Video
 
-{{< video https://youtu.be/vsewcY7jwYA
+```{python}
+#| echo: false
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+VIDEO_URL = os.getenv("EXERCISE_3_VIDEO_URL", default="https://www.youtube.com/watch?v=vsewcY7jwYA")
+```
+
+{{< video "`{python} VIDEO_URL`"
     title= "Developer Team Collaboration Exercise Walkthrough" >}}
 
 > Thanks to [Reed Uhlik](https://www.reeduhlik.com/) for collaborating on this video.
