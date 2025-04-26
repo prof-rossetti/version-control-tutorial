@@ -36,7 +36,7 @@ Additionally, Facebook's open source [React](https://react.dev/) platform is a g
 
 ## Why Open Source?
 
-Contributing to open source projects can help individuals demonstrate their credibility and skills to potential employers, build professional networks, and connect with like-minded individuals.
+Contributing to open source projects can help individuals demonstrate their credibility and skills to potential employers, increase visibility into their work, build professional networks, and connect with like-minded individuals.
 
 ### Demonstrate Credibility
 
@@ -45,6 +45,18 @@ In the world of open source, your work speaks for itself. Every pull request, is
 Unlike a private resume or a job interview, open source allows you to show, not tell. You're not just claiming to know how to write clean code or debug a tricky issue — you're demonstrating it in front of peers, contributors, and potential employers. It's a portfolio that evolves in real time, built on transparency and action.
 
 Better still, your contributions are visible to a global audience. A single thoughtful comment on a GitHub issue or a well-documented fix to an obscure bug can spark conversations, earn respect, and open doors. For developers from nontraditional backgrounds, open source can be a powerful equalizer — where credibility is earned not through credentials, but through code.
+
+### Increase Visibility
+
+Open source projects gain significantly greater visibility than private projects. Publishing code openly helps projects reach wider audiences, build credibility, and create new opportunities for collaboration.
+
+One key example is in research: open source software often leads to more citations. When researchers share their tools and datasets openly, it becomes easier for others to use, validate, and build upon their work, which naturally increases academic recognition.
+
+A simple but powerful way to support this is by including a "CITATION.cff" file in your repository. This file provides a [standardized way](https://citation-file-format.github.io/) for others to cite your project properly. Platforms like GitHub [automatically recognize](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) the "CITATION.cff" file and offer users an easy-to-copy citation, making it effortless to give credit where it's due.
+
+![Encouraging citations using a "CITATION.cff" file ([image source](https://github.blog/news-insights/company-news/enhanced-support-citations-github/)).](../images/github-citation-screenshot-zoomed.png)
+
+Whether you're aiming for academic impact, broader adoption, or professional recognition, treating visibility as a core goal of your open source efforts can significantly amplify your project's reach and success.
 
 ### Make Friends
 
