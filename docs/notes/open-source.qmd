@@ -58,6 +58,26 @@ A simple but powerful way to support this is by including a "CITATION.cff" file 
 
 Whether you're aiming for academic impact, broader adoption, or professional recognition, treating visibility as a core goal of your open source efforts can significantly amplify your project's reach and success.
 
+### Portability
+
+One major advantage of open source is the portability it offers. When your code is publicly available, it isn't tied to any single organization's infrastructure, permissions, or policies. If you move to a new company, institution, or team, you won't lose access to your work — it's still available to you and the broader community.
+
+This freedom protects your contributions from being locked away behind proprietary systems or lost to organizational changes. It also ensures that important tools, libraries, and research outputs remain accessible and usable over time, regardless of where your career takes you.
+
+Open sourcing your work (when permitted to do so) helps ensure that your efforts are lasting, portable, and truly your own.
+
+:::{.callout-tip title="Vignette: Losing Access to Work Product"}
+A few years ago, Alex designed a website with a beautiful, intuitive user login flow — everything about the flow felt polished and crisp. It wasn't just a one-off design; Alex had carefully solved common usability problems and created a flexible pattern for generic login screens that could be adapted to many different projects.
+
+But time passed. Alex moved on to a new company, and with that move, he lost access to the internal repositories and proprietary systems where the work lived. One day, when he wanted to make a similar flow for a new site, he tried to recall exactly how he had approached it back then, but without the original code or documentation, Alex had to start from scratch.
+
+In hindsight, if Alex had taken general notes and maybe even shared open source examples (without violating any employment agreements), he would have preserved that knowledge — not just for himself, but for others too.
+
+By investing a little time into open documentation and open source side projects, Alex could have enhanced his own productivity, preserved his expertise, and saved himself the painful process of reinventing what he had already done in the past.
+:::
+
+
+
 ### Make Friends
 
 One of the most rewarding parts of contributing to open source isn't just the code — it's the people. When you show up to a project with curiosity and care, you'll often find others who share your interests in your technical passions.
