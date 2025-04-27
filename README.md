@@ -25,7 +25,7 @@ Finally, the tutorial provides hands-on exercises with step-by-step instructions
 
 ## Contributing
 
-See the [Contributor's Guide](docs/README.md) for more information ab out how to set up, run, and contribute to this repository.
+See the [Contributor's Guide](docs/README.md) for more information about how to set up, run, and contribute to this repository.
 
 ## License
 
