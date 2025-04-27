@@ -93,7 +93,7 @@ It's not just about networking. It's about belonging. Open source gives you a sp
 By adopting and promoting open source software, individuals and organizations alike can actively participate in shaping the future of technology and innovation for generations to come.
 
 :::{.callout-tip title="Vignette: A World Without Open Source"}
-Imagine a city filled with bridges — elegant, essential, and everywhere. You cross them daily, but you're never allowed to look underneath. If one creaks, you report it. If one breaks, you wait. If you dream of a better bridge, you're told, "That's not your job."
+Imagine a city filled with bridges — elegant, essential, and everywhere. You cross them daily, but you're never allowed to look underneath. If one creaks, you report it. If one breaks, you wait. If you dream of a better bridge, you're told, "That's not your job".
 
 Now picture a different city. One where every bridge's blueprints are shared openly. Anyone can study them, repair them, or improve them. People from different backgrounds come together to build safer, more efficient, more beautiful bridges — not because they were told to, but because they care, they're curious, or they simply want to help. A crack isn't a dead end — it's a call to collaborate. New ideas aren't gatekept — they're welcomed.
 

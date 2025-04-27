@@ -23,11 +23,9 @@ By now, you may have heard terms like "Git," "GitHub," and "GitHub Desktop" — 
 
 In contrast, **online platforms** like [GitHub](http://github.com), [GitLab](https://gitlab.com), and [Bitbucket](https://bitbucket.org) implement Git and add social features, making it easier to host, discover, and collaborate on coding projects. You can think of these platforms as *shared spaces* where your code lives and where collaboration happens.
 
-A **Git client** is another important piece of the puzzle. Git clients are tools that help you interact with Git more easily — providing a user-friendly way to manage your code history and sync changes between your local computer and platforms like GitHub.
+A **Git client** is another important piece of the puzzle. Git clients are tools that help you interact with Git more easily — providing a user-friendly way to manage your code history and sync changes between your local computer and platforms like GitHub. For beginners, we recommend starting with GUI tools like [GitHub Desktop](../dev-tools/git-client.qmd#github-desktop), which offer an intuitive, button-driven experience. As you become more comfortable with command-line computing, you may later transition to using [Git on the command line](../dev-tools/clis/git.qmd) for more control and flexibility.
 
-For beginners, we recommend starting with GUI tools like [GitHub Desktop](../dev-tools/git-client.qmd#github-desktop), which offer an intuitive, button-driven experience. As you become more comfortable with command-line computing, you may later transition to using [Git on the command line](../dev-tools/clis/git.qmd) for more control and flexibility.
-
-You might notice that you can also edit files directly on GitHub's website. While convenient for quick changes, it's usually easier to work locally with a separate Git client — especially when editing multiple files or larger projects. New tools like [GitHub Codespaces](https://github.com/features/codespaces) are starting to blur this line, offering powerful, cloud-based development environments. Still, today it remains common practice to use a separate Git client for everyday local development. Local development also allows you to work without needing a constant Internet connection, unlike GitHub's online editor or Codespaces.
+You might notice that instead of using a Git client, it is possible to edit files directly on GitHub's website. While convenient for quick changes, it's usually easier to work locally with a separate Git client — especially when editing multiple files or larger projects. New tools like [GitHub Codespaces](https://github.com/features/codespaces) are starting to blur this line, offering powerful, cloud-based development environments. Still, today it remains common practice to use a separate Git client for everyday local development. Local development also allows you to work without needing a constant Internet connection, unlike GitHub's online editor or Codespaces. This tutorial will walk you through the process of installing, configuring, and using tools like a [text editor](../dev-tools/vs-code-text-editor.qmd) for local development.
 
 
 ## Benefits of Version Control
@@ -54,23 +52,50 @@ That team would benefit from using version control. In this new scenario, each d
 The difference? They're not just working together — they're building together, confidently and in sync.
 :::
 
-## Terminology
+## Version Control Terminology
 
-**Repository** (noun): A software development project. Otherwise known as a "repo". In practice, a repository is just directory of files and folders.
+Understanding the language of version control is key to collaborating on software projects. Here's a quick reference guide to some of the most common terms:
 
-**Fork** (verb): To make a copy of a repository under your own control.
+**Repository** (noun):
+A software development project, commonly referred to as a "repo". In practice, it's a directory containing files, folders, and metadata. Repositories can be hosted on online platforms like GitHub, GitLab, or Bitbucket.
 
-**Clone** (verb): To download a repository onto your local machine.
+→ Learn more: [About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)
 
-**Commit** (noun): A snapshot (version) of the repo at a specific point in time. A named version that can be rolled back to.
+**Fork** (verb):
+To create your own copy of an existing repository, typically under your personal account. Forks allow you to propose changes to someone else's project or use someone else's project as a starting point for your own idea.
 
-**Push** (verb): To upload code to GitHub.
+→ Learn more: [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
-**Pull** (verb): To download code to GitHub.
+**Clone** (verb):
+To download a repository from a remote source like GitHub onto your local machine. This gives you a full copy of the code, along with its version history.
 
-**Branch** (noun): One of many potential alternative realities / states of the repo. Default is "main".
+→ Learn more: [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-**Pull Request** (noun): A set of proposed changes comprising one or more commits, usually made on a feature-specific branch or separate fork, and corresponding request that a repository maintainer pull / merge / adopt the code into the "main" branch. Otherwise known as a "PR".
+**Commit** (noun):
+A snapshot of your project at a specific point in time. Commits are used to save your progress and track changes. Each commit has a unique ID (hash) and can be revisited or rolled back if needed.
 
+→ Learn more: [About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)
 
-See also this [Glossary](https://docs.github.com/en/get-started/learning-about-github/github-glossary) of GitHub terms.
+**Push** (verb):
+To upload your local commits to a remote repository, such as GitHub. Pushing shares your changes with others.
+
+→ Learn more: [Pushing commits](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository)
+
+**Pull** (verb):
+To download and integrate changes from a remote repository into your local copy. This keeps your local project up-to-date with others' contributions.
+
+→ Learn more: [Pulling changes](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository)
+
+**Branch** (noun):
+An independent line of development within a repository. Branches allow you to work on new features, bug fixes, or experiments without affecting the main codebase. The default branch is often called "main" (formerly "master").
+
+→ Learn more: [About branches](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)
+
+**Pull Request** (noun):
+A proposal to merge one set of changes (commits) from a branch or fork into another branch, usually the main development branch. Maintainers review pull requests (PRs) to discuss, approve, or request changes before merging.
+
+→ Learn more: [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+
+For a more extensive list of terms, check out GitHub's full [Glossary of Terms](https://docs.github.com/en/get-started/learning-about-github/github-glossary).
+
+At this point, many of these terms may still feel theoretical or abstract — but as you work through the hands-on exercises in this tutorial, they will quickly become much more familiar and intuitive.

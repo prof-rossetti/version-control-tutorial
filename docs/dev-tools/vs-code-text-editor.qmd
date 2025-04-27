@@ -40,7 +40,7 @@ To perform a vertical column selection:
   1. Click the cursor on the first line where we want to start the selection (where we would type our first comment character)
   2. Then press and hold “shift + option” on Mac, or “shift + alt” on Windows.
   3. Then click and drag straight down, and release the keys you were holding.
-  4. Finally type a comment character (or whatever text you’d like), and notice it will be typed onto all the selected lines.
+  4. Finally type a comment character (or whatever text you'd like), and notice it will be typed onto all the selected lines.
 
 
 ![Demonstration of vertical column selection for editing many lines at once.](https://user-images.githubusercontent.com/1328807/50870478-2e9b8400-1386-11e9-9378-0afadc4a7dce.gif)
