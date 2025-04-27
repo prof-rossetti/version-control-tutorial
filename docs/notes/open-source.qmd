@@ -105,6 +105,10 @@ Open source isn't just about code. It's about access, community, and agency. It'
 
 ## How to Open Source?
 
+### Version Control
+
+Open source software and [version control](./version-control.qmd) go hand-in-hand. Version control tools are the "instruments" that enable development of open source software.
+
 :::{.callout-tip title="The World's Largest Jam Session"}
 Imagine walking into a park where musicians from all over the world are jamming together. Some are pros, others are just learning, but the melody is constantly evolving — new riffs, unexpected harmonies, shared rhythms.
 
@@ -113,13 +117,6 @@ That's open source software. It's a space where someone's starter code becomes s
 You don't need to be a rockstar to join. Just pick up your instrument and start playing.
 :::
 
-### Version Control
-
-Open source software and [version control](./version-control.qmd) go hand-in-hand. Version control tools are the "instruments" that enable development of open source software.
-
-Version control tools like Git, and platforms like [GitHub](http://github.com), [GitLab](https://gitlab.com), and/or [Bitbucket](https://bitbucket.org) can help individuals discover and collaborate on open source coding projects.
-
-Beginners can get started using tools like [GitHub Desktop](../dev-tools/git-client.qmd#github-desktop), and consider learning [command-line Git](../dev-tools/clis/git.qmd) if interested.
 
 ### Choose a License
 

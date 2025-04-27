@@ -15,6 +15,20 @@ The importance of version control extends beyond software development; it is als
 
 There are two main types of version control: centralized and distributed. Centralized version control systems (CVCS), such as Subversion (SVN), use a single repository for storing all versions, while distributed version control systems (DVCS), like Git, provide each user with a complete copy of the project history, enhancing flexibility and collaboration.
 
+## Version Control Tools
+
+By now, you may have heard terms like "Git," "GitHub," and "GitHub Desktop" — but how do these tools relate to each other?
+
+**Git** is one of the major version control systems: a technology that enables you to track changes to your code over time, revert to earlier versions, and collaborate more effectively. You can think of Git as the underlying *way of doing things* — the foundation for performing version control.
+
+In contrast, **online platforms** like [GitHub](http://github.com), [GitLab](https://gitlab.com), and [Bitbucket](https://bitbucket.org) implement Git and add social features, making it easier to host, discover, and collaborate on coding projects. You can think of these platforms as *shared spaces* where your code lives and where collaboration happens.
+
+A **Git client** is another important piece of the puzzle. Git clients are tools that help you interact with Git more easily — providing a user-friendly way to manage your code history and sync changes between your local computer and platforms like GitHub.
+
+For beginners, we recommend starting with GUI tools like [GitHub Desktop](../dev-tools/git-client.qmd#github-desktop), which offer an intuitive, button-driven experience. As you become more comfortable with command-line computing, you may later transition to using [Git on the command line](../dev-tools/clis/git.qmd) for more control and flexibility.
+
+You might notice that you can also edit files directly on GitHub's website. While convenient for quick changes, it's usually easier to work locally with a separate Git client — especially when editing multiple files or larger projects. New tools like [GitHub Codespaces](https://github.com/features/codespaces) are starting to blur this line, offering powerful, cloud-based development environments. Still, today it remains common practice to use a separate Git client for everyday local development. Local development also allows you to work without needing a constant Internet connection, unlike GitHub's online editor or Codespaces.
+
 
 ## Benefits of Version Control
 
