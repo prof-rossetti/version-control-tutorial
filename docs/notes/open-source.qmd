@@ -124,6 +124,19 @@ Within an open source coding project, it is important to [choose an appropriate 
 
 For more information about licensing, see this in-depth [Open Source Licensing Tutorial](https://gw-ospo.github.io/oss-licensing/intro.html).
 
+### Maintaining a Repository
+
+Opening up a coding repository to the world is only the first step. To truly support an open source project, maintainers play a key role in shaping the community around it. Being a good maintainer is about more than just managing code — it's about creating an environment that feels professional, welcoming, and worth contributing to.
+
+One of the most important first steps is to write a clear and helpful ["README.md" file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes). The README acts as the front door to your project: it tells visitors what the project is, what it does, how to get started, and how to get involved. A well-written README shows that the project is cared for and accessible, which can make all the difference in whether someone decides to contribute.
+
+As your project grows, it may also be helpful to set clear expectations for how people can participate. Adding a ["CONTRIBUTING.md" file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) allows you to explain things like how to report bugs, how to submit pull requests, and any coding conventions you'd like contributors to follow. This lowers the barrier for newcomers and makes collaboration smoother for everyone.
+
+Another key document is a Code of Conduct. Including a ["CODE_OF_CONDUCT.md" file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project) sends a strong signal that your project is committed to being a safe, inclusive space for all contributors. It helps set the tone early and can prevent many potential conflicts down the road.
+
+Not every project needs the same level of structure, and it's important to match your approach to your project's [maturity](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md). If you're just starting out with a small personal project, a good README and friendly issue responses might be all you need. As your project grows and attracts more contributors, it becomes worth investing more time in contribution guidelines, issue templates, and more thoughtful community management.
+
+
 ## When to Open Source?
 
 ### Default to Open
