@@ -1,4 +1,4 @@
-# "Open Source Collaboration" Exercise
+# "Open Source Workflow" Exercise
 
 ## Learning Objectives
 
@@ -6,10 +6,11 @@ Adopt and practice a Pull Request Workflow to collaborate with people you don't 
 
 ## Walkthrough Video
 
-{{< video https://youtu.be/X0UQAVwzBZE
-    title= "Open Source Collaboration Exercise Walkthrough" >}}
+{{< video "https://vimeo.com/1078785045"
+    title="Open Source Workflow - Exercise Walkthrough" >}}
 
 > Thanks to [Reed Uhlik](https://www.reeduhlik.com/) for collaborating on this video.
+
 
 ## Instructions
 

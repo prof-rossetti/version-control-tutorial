@@ -6,12 +6,12 @@ Adopt a Pull Request Workflow to collaborate with yourself (on independent proje
 
 ## Walkthrough Video
 
-{{< video https://www.youtube.com/watch?v=NTzUbULGc3o
-    title= "Pull Request Workflow Exercise Walkthrough" >}}
+{{< video "https://vimeo.com/1078782830"
+    title="Pull Request Workflow - Exercise Walkthrough" >}}
 
 ## Instructions
 
-This is a process we will follow to add or revise the contents of our own existing repos. If you have just completed the ["Hello Version Control" exercise](../hello-version-control/index.qmd), you can start at step 3:
+This is a process we will follow to add or revise the contents of our own existing repos. If you have just completed the ["Version Control Workflow" exercise](../1-version-control-workflow/index.qmd), you can start at step 3:
 
 Repo Setup Process:
 

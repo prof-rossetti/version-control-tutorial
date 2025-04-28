@@ -13,6 +13,7 @@
 </iframe>
 </div>
 
+The content below provides a written narrative to expand upon the key points from this presentation.
 
 ## What is Open Source?
 
@@ -35,7 +36,7 @@ Additionally, Facebook's open source [React](https://react.dev/) platform is a g
 
 ## Why Open Source?
 
-Contributing to open source projects can help individuals demonstrate their credibility and skills to potential employers, build professional networks, and connect with like-minded individuals.
+Contributing to open source projects can help individuals demonstrate their credibility and skills to potential employers, increase visibility into their work, build professional networks, and connect with like-minded individuals.
 
 ### Demonstrate Credibility
 
@@ -44,6 +45,38 @@ In the world of open source, your work speaks for itself. Every pull request, is
 Unlike a private resume or a job interview, open source allows you to show, not tell. You're not just claiming to know how to write clean code or debug a tricky issue — you're demonstrating it in front of peers, contributors, and potential employers. It's a portfolio that evolves in real time, built on transparency and action.
 
 Better still, your contributions are visible to a global audience. A single thoughtful comment on a GitHub issue or a well-documented fix to an obscure bug can spark conversations, earn respect, and open doors. For developers from nontraditional backgrounds, open source can be a powerful equalizer — where credibility is earned not through credentials, but through code.
+
+### Increase Visibility
+
+Open source projects gain significantly greater visibility than private projects. Publishing code openly helps projects reach wider audiences, build credibility, and create new opportunities for collaboration.
+
+One key example is in research: open source software often leads to more citations. When researchers share their tools and datasets openly, it becomes easier for others to use, validate, and build upon their work, which naturally increases academic recognition.
+
+A simple but powerful way to support this is by including a "CITATION.cff" file in your repository. This file provides a [standardized way](https://citation-file-format.github.io/) for others to cite your project properly. Platforms like GitHub [automatically recognize](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) the "CITATION.cff" file and offer users an easy-to-copy citation, making it effortless to give credit where it's due.
+
+![Encouraging citations using a "CITATION.cff" file ([image source](https://github.blog/news-insights/company-news/enhanced-support-citations-github/)).](../images/github-citation-screenshot-zoomed.png)
+
+Whether you're aiming for academic impact, broader adoption, or professional recognition, treating visibility as a core goal of your open source efforts can significantly amplify your project's reach and success.
+
+### Portability
+
+One major advantage of open source is the portability it offers. When your code is publicly available, it isn't tied to any single organization's infrastructure, permissions, or policies. If you move to a new company, institution, or team, you won't lose access to your work — it's still available to you and the broader community.
+
+This freedom protects your contributions from being locked away behind proprietary systems or lost to organizational changes. It also ensures that important tools, libraries, and research outputs remain accessible and usable over time, regardless of where your career takes you.
+
+Open sourcing your work (when permitted to do so) helps ensure that your efforts are lasting, portable, and truly your own.
+
+:::{.callout-tip title="Vignette: Losing Access to Work Product"}
+A few years ago, Alex designed a website with a beautiful, intuitive user login flow — everything about the flow felt polished and crisp. It wasn't just a one-off design; Alex had carefully solved common usability problems and created a flexible pattern for generic login screens that could be adapted to many different projects.
+
+But time passed. Alex moved on to a new company, and with that move, he lost access to the internal repositories and proprietary systems where the work lived. One day, when he wanted to make a similar flow for a new site, he tried to recall exactly how he had approached it back then, but without the original code or documentation, Alex had to start from scratch.
+
+In hindsight, if Alex had taken general notes and maybe even shared open source examples (without violating any employment agreements), he would have preserved that knowledge — not just for himself, but for others too.
+
+By investing a little time into open documentation and open source side projects, Alex could have enhanced his own productivity, preserved his expertise, and saved himself the painful process of reinventing what he had already done in the past.
+:::
+
+
 
 ### Make Friends
 
@@ -60,7 +93,7 @@ It's not just about networking. It's about belonging. Open source gives you a sp
 By adopting and promoting open source software, individuals and organizations alike can actively participate in shaping the future of technology and innovation for generations to come.
 
 :::{.callout-tip title="Vignette: A World Without Open Source"}
-Imagine a city filled with bridges — elegant, essential, and everywhere. You cross them daily, but you're never allowed to look underneath. If one creaks, you report it. If one breaks, you wait. If you dream of a better bridge, you're told, "That's not your job."
+Imagine a city filled with bridges — elegant, essential, and everywhere. You cross them daily, but you're never allowed to look underneath. If one creaks, you report it. If one breaks, you wait. If you dream of a better bridge, you're told, "That's not your job".
 
 Now picture a different city. One where every bridge's blueprints are shared openly. Anyone can study them, repair them, or improve them. People from different backgrounds come together to build safer, more efficient, more beautiful bridges — not because they were told to, but because they care, they're curious, or they simply want to help. A crack isn't a dead end — it's a call to collaborate. New ideas aren't gatekept — they're welcomed.
 
@@ -74,15 +107,34 @@ Open source isn't just about code. It's about access, community, and agency. It'
 
 ### Version Control
 
-Open source software and [version control](./version-control.qmd) go hand-in-hand.
+Open source software and [version control](./version-control.qmd) go hand-in-hand. Version control tools are the "instruments" that enable development of open source software.
 
-Version control tools like Git, and platforms like [GitHub](http://github.com), [GitLab](https://gitlab.com), and/or [Bitbucket](https://bitbucket.org) can help individuals discover and collaborate on open source coding projects.
+:::{.callout-tip title="The World's Largest Jam Session"}
+Imagine walking into a park where musicians from all over the world are jamming together. Some are pros, others are just learning, but the melody is constantly evolving — new riffs, unexpected harmonies, shared rhythms.
 
-Beginners can get started using tools like [GitHub Desktop](../dev-tools/git-client.qmd#github-desktop), and consider learning [command-line Git](../dev-tools/clis/git.qmd) if interested.
+That's open source software. It's a space where someone's starter code becomes someone else's masterpiece. Where ideas remix and evolve out in the open. Where the act of contributing, no matter how small, helps shape the music that powers the digital world.
+
+You don't need to be a rockstar to join. Just pick up your instrument and start playing.
+:::
+
 
 ### Choose a License
 
 Within an open source coding project, it is important to [choose an appropriate open source license](https://choosealicense.com/), to define how the software can be used, modified, and shared.
+
+For more information about licensing, see this in-depth [Open Source Licensing Tutorial](https://gw-ospo.github.io/oss-licensing/intro.html).
+
+### Maintaining a Repository
+
+Opening up a coding repository to the world is only the first step. To truly support an open source project, maintainers play a key role in shaping the community around it. Being a good maintainer is about more than just managing code — it's about creating an environment that feels professional, welcoming, and worth contributing to.
+
+One of the most important first steps is to write a clear and helpful ["README.md" file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes). The README acts as the front door to your project: it tells visitors what the project is, what it does, how to get started, and how to get involved. A well-written README shows that the project is cared for and accessible, which can make all the difference in whether someone decides to contribute.
+
+As your project grows, it may also be helpful to set clear expectations for how people can participate. Adding a ["CONTRIBUTING.md" file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) allows you to explain things like how to report bugs, how to submit pull requests, and any coding conventions you'd like contributors to follow. This lowers the barrier for newcomers and makes collaboration smoother for everyone.
+
+Another key document is a Code of Conduct. Including a ["CODE_OF_CONDUCT.md" file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project) sends a strong signal that your project is committed to being a safe, inclusive space for all contributors. It helps set the tone early and can prevent many potential conflicts down the road.
+
+Not every project needs the same level of structure, and it's important to match your approach to your project's [maturity](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md). If you're just starting out with a small personal project, a good README and friendly issue responses might be all you need. As your project grows and attracts more contributors, it becomes worth investing more time in contribution guidelines, issue templates, and more thoughtful community management.
 
 
 ## When to Open Source?

@@ -17,7 +17,7 @@ If you use VS Code, you can also consider installing the [Quarto Extension](http
 
 Fork the repo. Clone your copy of the repo onto your computer and navigate to it from the command line.
 
-Setup virtual environment:
+Setup virtual environment (if you like that kind of thing):
 
 ```sh
 conda create -n quarto-env python=3.10
@@ -40,6 +40,7 @@ FYI the following command was used to initialize the quarto config:
 ```
 
 In the docs/_quarto.yml file, the output directory was changed from _book to _build to standardize across projects, enabling the usage of common workflow files and makefile.
+
 
 ## Building
 

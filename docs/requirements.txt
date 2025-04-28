@@ -8,6 +8,8 @@ jupyter
 # https://quarto.org/docs/projects/code-execution.html#cache
 #jupyter-cache
 
+# reading environment variables from the .env file:
+#python-dotenv
 
 # packages required by any python code / notebooks:
 #numpy

@@ -1,4 +1,4 @@
-# "Developer Team Collaboration" Exercise
+# "Developer Team Workflow" Exercise
 
 ## Learning Objectives
 
@@ -6,8 +6,8 @@ Adopt a Pull Request Workflow to collaborate with teammates, on team projects wh
 
 ## Walkthrough Video
 
-{{< video https://youtu.be/vsewcY7jwYA
-    title= "Developer Team Collaboration Exercise Walkthrough" >}}
+{{< video "https://vimeo.com/1078783956"
+    title= "Developer Team Workflow - Exercise Walkthrough" >}}
 
 > Thanks to [Reed Uhlik](https://www.reeduhlik.com/) for collaborating on this video.
 
