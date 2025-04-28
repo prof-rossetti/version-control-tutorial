@@ -1,6 +1,6 @@
 
 :::{.content-hidden when-format="html" when-page="index"}
-# Version Control Tutorial
+# Open Source Collaboration and Version Control Tutorial
 :::
 
 <p style="font-size:20px;">
