@@ -9,7 +9,7 @@ jupyter
 #jupyter-cache
 
 # reading environment variables from the .env file:
-#python-dotenv
+python-dotenv
 
 # packages required by any python code / notebooks:
 #numpy
