@@ -50,6 +50,12 @@ jobs:
 
     # RENDER HTML AND PDF (see docs/_build)
     - name: Build the book
+      env:
+        # pass repo secrets as environment variables:
+        EXERCISE_1_VIDEO_URL: ${{ secrets.EXERCISE_1_VIDEO_URL }}
+        EXERCISE_2_VIDEO_URL: ${{ secrets.EXERCISE_2_VIDEO_URL }}
+        EXERCISE_3_VIDEO_URL: ${{ secrets.EXERCISE_3_VIDEO_URL }}
+        EXERCISE_4_VIDEO_URL: ${{ secrets.EXERCISE_4_VIDEO_URL }}
       run: |
         quarto render docs/
 

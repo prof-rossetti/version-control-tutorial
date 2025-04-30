@@ -6,8 +6,23 @@ Adopt and practice a Pull Request Workflow to collaborate with people you don't 
 
 ## Walkthrough Video
 
-{{< video "https://vimeo.com/1078785045"
-    title="Open Source Workflow - Exercise Walkthrough" >}}
+```{python}
+#| echo: false
+#| output: asis
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+VIDEO_URL = os.getenv("EXERCISE_4_VIDEO_URL", default="https://www.youtube.com/watch?v=X0UQAVwzBZE")
+VIDEO_TITLE = "Open Source Workflow - Exercise Walkthrough"
+
+video_markdown = "{{< video " + f"'{VIDEO_URL}'" + f" title= '{VIDEO_TITLE}' " + " >}}"
+print(video_markdown)
+```
+
+
 
 > Thanks to [Reed Uhlik](https://www.reeduhlik.com/) for collaborating on this video.
 

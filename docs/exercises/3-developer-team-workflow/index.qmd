@@ -6,8 +6,22 @@ Adopt a Pull Request Workflow to collaborate with teammates, on team projects wh
 
 ## Walkthrough Video
 
-{{< video "https://vimeo.com/1078783956"
-    title= "Developer Team Workflow - Exercise Walkthrough" >}}
+```{python}
+#| echo: false
+#| output: asis
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+VIDEO_URL = os.getenv("EXERCISE_3_VIDEO_URL", default="https://www.youtube.com/watch?v=vsewcY7jwYA")
+VIDEO_TITLE = "Developer Team Workflow - Exercise Walkthrough"
+
+video_markdown = "{{< video " + f"'{VIDEO_URL}'" + f" title= '{VIDEO_TITLE}' " + " >}}"
+print(video_markdown)
+```
+
 
 > Thanks to [Reed Uhlik](https://www.reeduhlik.com/) for collaborating on this video.
 
