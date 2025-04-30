@@ -42,7 +42,7 @@ If these commands produce a version-looking output and a filepath-looking output
 
 ### Installation on Mac
 
-Mac users can install Git from <https://git-scm.com/downloads>, or via [homebrew](/notes/clis/brew.md) (recommended) with `brew install git`.
+Mac users can install Git from <https://git-scm.com/downloads>, or via [homebrew](brew.qmd) (recommended) with `brew install git`.
 
 After installing, restart your terminal application, where you should now be able to execute Git commands (like `git --version`).
 
