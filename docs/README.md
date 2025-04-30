@@ -31,6 +31,22 @@ Install package dependencies:
 pip install -r docs/requirements.txt
 ```
 
+
+## Customization
+
+We are using environment variables to customize video URLs across different copies of the repository.
+
+To set your own video URLs for local development, create a ".env" file in the "docs" folder, and place contents inside like the following:
+
+```sh
+# this is the docs/.env" file...
+
+EXERCISE_1_VIDEO_URL="https://vimeo.com/1078779616"
+EXERCISE_2_VIDEO_URL="https://vimeo.com/1078782830"
+EXERCISE_3_VIDEO_URL="https://vimeo.com/1078783956"
+EXERCISE_4_VIDEO_URL="https://vimeo.com/1078785045"
+```
+
 ## Initialization
 
 FYI the following command was used to initialize the quarto config:
@@ -66,3 +82,5 @@ quarto render docs/ --verbose
 We are using the ["deploy.yml" workflow configuration file](/.github/workflows/deploy.yml) to deploy the site to GitHub Pages when new commits are pushed to the main branch.
 
 In order for this to work, you first need to configure your GitHub Pages repo settings to publish via GitHub Actions.
+
+If you would like to customize environment variables, you will also need to set them as repository secrets using the repository settings. The GitHub Actions workflow file will read repository secrets and pass them to the build as environment variables (no ".env" file necessary in production).
