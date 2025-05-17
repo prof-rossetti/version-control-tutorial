@@ -6,7 +6,7 @@ Adopt a Pull Request Workflow to collaborate with teammates, on team projects wh
 
 ## Walkthrough Video
 
-{{< video "https://vimeo.com/1078783956"
+{{< video "https://www.youtube.com/watch?v=vsewcY7jwYA"
     title= "Developer Team Workflow - Exercise Walkthrough" >}}
 
 > Thanks to [Reed Uhlik](https://www.reeduhlik.com/) for collaborating on this video.

@@ -6,7 +6,7 @@ Adopt a Pull Request Workflow to collaborate with yourself (on independent proje
 
 ## Walkthrough Video
 
-{{< video "https://vimeo.com/1078782830"
+{{< video "https://www.youtube.com/watch?v=NTzUbULGc3o"
     title="Pull Request Workflow - Exercise Walkthrough" >}}
 
 ## Instructions

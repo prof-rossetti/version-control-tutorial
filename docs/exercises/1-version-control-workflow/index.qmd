@@ -6,7 +6,7 @@ Gain familiarity with basic version control operations, including creating repos
 
 ## Walkthrough Video
 
-{{< video "https://vimeo.com/1078779616"
+{{< video "https://www.youtube.com/watch?v=UCcbvta2dp4"
     title= "Version Control Workflow - Exercise Walkthrough" >}}
 
 ## Instructions

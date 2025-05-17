@@ -1,4 +1,4 @@
-# Open Source Collaboration and Version Control Tutorial
+# Intro to Open Source and Version Control
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -29,7 +29,7 @@ See the [Contributor's Guide](docs/README.md) for more information about how to 
 
 ## License
 
-<p>&copy; Copyright 2025, <a href="https://ospo.gwu.edu/">GWU Open Source Program Office (OSPO)</a>.
-  Authored by <a href="https://michael-rossetti.org/">Michael J Rossetti</a>.
+<p>&copy; Copyright 2025, <a href="https://michael-rossetti.org/">Michael J Rossetti</a>.
+  Originally created for the <a href="https://ospo.gwu.edu/">GWU Open Source Program Office (OSPO)</a>.
   Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.
 </p>

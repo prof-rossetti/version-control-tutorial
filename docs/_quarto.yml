@@ -8,7 +8,7 @@ project:
 # https://quarto.org/docs/books/
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "Open Source Collaboration and Version Control Tutorial"
+  title: "Intro to Open Source and Version Control"
   author: "Michael J Rossetti"
   date: "last-modified" # "7/24/2024"
   date-format: "iso"
@@ -44,8 +44,8 @@ book:
   #favicon: images/favicon.ico
 
   # https://quarto.org/docs/websites/website-navigation.html#side-navigation
-  sidebar:
-    logo: images/ospo-logo.png
+  #sidebar:
+  #  logo: images/ospo-logo.png
 
   #sidebar:
   #  contents:
@@ -118,10 +118,11 @@ book:
 
   page-footer:
     center: |
-      <p>&copy; Copyright 2025, <a href="https://ospo.gwu.edu/">GWU Open Source Program Office (OSPO)</a>.
-        Authored by <a href="https://michael-rossetti.org/">Michael J Rossetti</a>.
+      <p>&copy; Copyright 2025, <a href="https://michael-rossetti.org/">Michael J Rossetti</a>.
+        Originally created for the <a href="https://ospo.gwu.edu/">GWU Open Source Program Office (OSPO)</a>.
         Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.
       </p>
+
 
 
 

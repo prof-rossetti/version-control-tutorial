@@ -6,11 +6,11 @@
 */
 
 /* hide just the book title in the sidebar
-*/
 
 .sidebar-title > a {
   display: none;
 }
+*/
 
 /* display a border on the left sidebar */
 #quarto-sidebar {
