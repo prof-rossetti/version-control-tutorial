@@ -113,6 +113,11 @@ book:
         text: "Homebrew (Mac OS)"
       - dev-tools/clis/git.qmd
 
+    - part: "AI Coding Tools"
+      chapters:
+      - href: dev-tools/claude-code.qmd
+        text: "Claude Code"
+
   # shows up at bottom of page
   #body-footer: "&copy; Copyright 2024, Your Name Here"
 
