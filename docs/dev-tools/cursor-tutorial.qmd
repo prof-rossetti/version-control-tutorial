@@ -18,18 +18,18 @@ This chapter uses a Mac. Windows steps are given wherever they differ. Keyboard 
 
 1. Open the Terminal app: press Cmd + Space, type **Terminal**, and press Enter.
 
-   ![Open Terminal](../images/Cursor_Screenshots/1.png)
+   ![Open Terminal](../images/1.png)
 
 2. Type the following command and press Enter:
 ```
    git --version
 ```
 
-   ![Type Git on Mac](../images/Cursor_Screenshots/2.png)
+   ![Type Git on Mac](../images/2.png)
 
 3. If a version number prints, git is installed. If not, macOS shows a window offering to install the **command line developer tools**. Click **Install**, wait for it to finish, then run `git --version` again.
 
-   ![Install Command Line Tools](../images/Cursor_Screenshots/3.png)
+   ![Install Command Line Tools](../images/3.png)
 
 **Windows**
 
@@ -50,11 +50,11 @@ This chapter uses a Mac. Windows steps are given wherever they differ. Keyboard 
 
 1. Go to <https://cursor.com/download> and download the Mac version.
 
-   ![Download Cursor](../images/Cursor_Screenshots/4.png)
+   ![Download Cursor](../images/4.png)
 
 2. Open the downloaded `.dmg` file and drag **Cursor** into the **Applications** folder.
 
-   ![Drag to Applications](../images/Cursor_Screenshots/5.png)
+   ![Drag to Applications](../images/5.png)
 
 
 **Windows**
@@ -89,7 +89,7 @@ Cursor's agent does not have its own "connect GitHub" button for this workflow. 
 2. Click **Sign Up** or **Log In** on the welcome screen.
 3. A browser window opens. Create a free account (or log in with Google or GitHub) and approve access.
 
-   ![Sign in to Cursor](../images/Cursor_Screenshots/6.png)
+   ![Sign in to Cursor](../images/6.png)
 
 4. Return to Cursor. When you see your account at the bottom left of the panel, Cursor is ready.
 
@@ -117,12 +117,12 @@ This step links your computer, and therefore Cursor, to your GitHub account. You
    
    **Mac**:
    1. Install Homebrew. Go to the website <https://brew.sh/> and copy the command in your terminal
-      ![Sign in to Cursor](../images/Cursor_Screenshots/7.png)
+      ![Sign in to Cursor](../images/7.png)
 
    2. Enter your Mac password when asked (nothing appears as you type), then press Enter again to continue. If your Mac asks to install the "Command Line Developer Tools," click **Install** and wait for it to finish. The whole install can take several minutes.
 
    3. When it finishes, Homebrew prints a **Next steps** section. If it lists commands under "Run these commands in your terminal to add Homebrew to your PATH," copy and run them. On most newer Macs they look like this:
-       ![Sign in to Cursor](../images/Cursor_Screenshots/8.png)
+       ![Sign in to Cursor](../images/8.png)
 
 
    4. Check that Homebrew works:
@@ -151,8 +151,8 @@ This step links your computer, and therefore Cursor, to your GitHub account. You
    - *How would you like to authenticate GitHub CLI?* **Login with a web browser**
 5. Copy the one-time code shown in the terminal, press Enter, and paste the code into the GitHub page that opens in your browser. Click **Continue**, then **Authorize**.
 
-   ![One-Time Code](../images/Cursor_Screenshots/9.png)
-   ![Authorization](../images/Cursor_Screenshots/10.png)
+   ![One-Time Code](../images/9.png)
+   ![Authorization](../images/10.png)
 
 
 6. Verify the login:
@@ -160,7 +160,7 @@ This step links your computer, and therefore Cursor, to your GitHub account. You
    gh auth status
 ```
 
-   ![Device Activation Confirmed](../images/Cursor_Screenshots/11.png)
+   ![Device Activation Confirmed](../images/11.png)
 
 ### Create a practice repository
 
@@ -191,7 +191,7 @@ By default, Cursor's agent edits files directly and asks before running terminal
 2. Go to **Agents** and find **Run Mode**.
 3. Choose the option that asks for approval before every command. Never choose a "Run Everything" option.
 
-![Run Mode Setting](../images/Cursor_Screenshots/12.png)
+![Run Mode Setting](../images/12.png)
 
 ### Where Cursor keeps its settings
 
@@ -210,17 +210,17 @@ The workflows below use a practice branch inside your `cursor-practice` reposito
 
    Git replies "Switched to a new branch."
 
-   ![New Branch](../images/Cursor_Screenshots/13.png)
+   ![New Branch](../images/13.png)
 
 2. **Open the Agent panel.** Press Cmd + L (Ctrl + L on Windows), or click the chat icon in the top right. Check that the mode dropdown at the bottom of the panel says **Agent**.
 
-   ![Agent Panel](../images/Cursor_Screenshots/14.png)
+   ![Agent Panel](../images/14.png)
 
 3. **Ask Cursor to create a file.** Type this prompt:
    > Create a file called cursor-test.md containing a short paragraph explaining what a git branch is.
 
    Cursor creates the file and shows the change in green. Unlike Codex, file edits are saved right away, so review them: click **Keep** to accept the change or **Undo** to reject it. This review step is an important safety feature.
-     !(../images/Cursor_Screenshots/15.png)
+     !(../images/15.png)
 
 4. **Look at what changed.** Type this prompt:
    > Run git status and show me the diff.
@@ -252,11 +252,11 @@ This practice pull request is opened inside your own `cursor-practice` repositor
    gh pr create --base main --head cursor-practice --title "Add Cursor test file" --body "Practice pull request."
 ```
 
-   ![Creating Pull Request](../images/Cursor_Screenshots/16.png)
+   ![Creating Pull Request](../images/16.png)
 
 2. **View the pull request on GitHub.** Open the link that was printed, or go to the **Pull requests** tab of your `cursor-practice` repository on GitHub. Check the title, description, and the **Files changed** tab.
 
-   ![Looking at PR on Browser](../images/Cursor_Screenshots/17.png)
+   ![Looking at PR on Browser](../images/17.png)
 
 3. **Squash and Merge**  Cursor can directly squash and merge your pull requests. You can do so by clicking the "squash and merge" button in the cursor agent tab above
 
