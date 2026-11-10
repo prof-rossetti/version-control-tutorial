@@ -136,31 +136,38 @@ Beneath the agent's response, click the **Review** button. This opens Antigravit
 
 #### Step 4: Stage and Commit Your Tutorial Files
 
-Once you are satisfied with the generated files, switch to the terminal in Antigravity and check the status of your working tree:
+Once you have drafted the tutorial and added the screenshots, switch to the terminal in Antigravity to stage only the tutorial file and its associated images:
 
 ```bash
-git status
+git add antigravity-tutorial.md docs/images/
 ```
 
-Stage the practice and tutorial files:
+Verify what will be committed. Because `antigravity-practice.md` may still be untracked at this stage, use `git diff --cached --name-only` to confirm that only the tutorial and its screenshots are staged:
 
 ```bash
-git add antigravity-practice.md antigravity-tutorial.md
+git diff --cached --name-only
 ```
 
-Commit the staged changes with a descriptive message:
+You should see only `antigravity-tutorial.md` and the relevant screenshot files staged:
+
+```console
+antigravity-tutorial.md
+docs/images/antigravity-clone-fork.png
+docs/images/antigravity-command-permission.png
+docs/images/antigravity-create-branch.png
+docs/images/antigravity-download.jpeg
+docs/images/antigravity-install-git.png
+docs/images/antigravity-login.jpeg
+docs/images/antigravity-prompt.png
+docs/images/antigravity-pull-request.png
+docs/images/antigravity-review.png
+```
+
+Commit the staged changes with a clear message:
 
 ```bash
-git commit -m "Add antigravity tutorial and practice files"
+git commit -m "Add Antigravity tutorial and screenshots"
 ```
-
-Verify the working tree is clean:
-
-```bash
-git status
-```
-
-> **[Screenshot placeholder: Terminal showing `git add`, `git commit`, and a clean working tree]**
 
 ---
 
@@ -176,8 +183,6 @@ git push -u origin antigravity-tutorial
 
 The `-u` (or `--set-upstream`) flag links your local `antigravity-tutorial` branch to the remote branch on your fork so future pushes only require `git push`.
 
-> **[Screenshot placeholder: Terminal output confirming the branch was pushed to remote]**
-
 #### Step 2: Open a Pull Request
 
 1. Open your web browser and navigate to your GitHub fork or the upstream repository at [`prof-rossetti/version-control-tutorial`](https://github.com/prof-rossetti/version-control-tutorial).
@@ -191,7 +196,7 @@ The `-u` (or `--set-upstream`) flag links your local `antigravity-tutorial` bran
 4. Add a descriptive title (e.g., `Add Antigravity tutorial and practice guide`) and summarize your changes in the description comment box.
 5. Click **Create pull request**.
 
-> **[Screenshot placeholder: GitHub Pull Request creation page comparing `prof-rossetti:main` with `<your-username>:antigravity-tutorial`]**
+![GitHub Pull Request](docs/images/antigravity-pull-request.png)
 
 ---
 
@@ -207,5 +212,3 @@ Now practice working collaboratively with the Antigravity agent by having it per
    - Are the existing two sentences and heading preserved?
    - Do the green additions reflect exactly what you requested?
 4. **Stage and Commit:** Once confirmed, use `git status`, `git add antigravity-practice.md`, and `git commit -m "Add tip to antigravity-practice.md"` to finalize your changes.
-
-> **[Screenshot placeholder: Diff review showing the new blockquote addition in `antigravity-practice.md`]**
