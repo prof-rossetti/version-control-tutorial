@@ -8,7 +8,7 @@ This tutorial walks you through setting up and using Google Antigravity for Git 
 
 Before working with Antigravity and Git on macOS, ensure you have Git and Antigravity installed on your machine.
 
-### 1. Install Git via Conda
+### Install Git via Conda
 
 If you use Anaconda or Miniconda to manage your packages and environments, you can install Git directly using Conda:
 
@@ -31,9 +31,15 @@ git --version
 
 ![Installing Git via Conda](docs/images/antigravity-install-git.png)
 
-### 2. Install Antigravity
+### Install and set up Antigravity
 
-Download and install the Google Antigravity application for macOS. Once installed, move Antigravity to your `/Applications` directory and launch it.
+Visit the [Antigravity Download page](https://antigravity.google/download/) and choose the installer for your computer. Once the package is downloaded, open the installer and move Antigravity to your `/Applications` directory.
+
+![Downloading Antigravity](docs/images/antigravity-download.jpeg)
+
+Next, open Antigravity and follow the prompts to sign in with your Google account. Note that signing in to Antigravity with your Google account is for the IDE and AI agent; signing in to GitHub to push commits (`git push`) is a separate step that uses your GitHub credentials or SSH keys.
+
+![Signing in to Antigravity](docs/images/antigravity-login.jpeg)
 
 ---
 
